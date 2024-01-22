@@ -40,7 +40,7 @@ return (
                     <i className="bi bi-stars shape_b"></i>
                     <i className="bi bi-circle-fill shape_c"></i>
                     <i className="bi bi-triangle-fill shape_d"></i>
-                    <img src="/assets/images/about.svg" alt="rajathavamani" />
+                    <Image src="/assets/images/about.svg" alt="rajathavamani" />
                 </div>
                 <div className="about_cnt_wrap">
                     <h1 className="about_title">Get to know about me!</h1>

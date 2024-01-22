@@ -37,7 +37,7 @@ const Experience = () => {
                 <h1 className="page_title">Experience</h1>
                 <div className="experience_container">
                     <div className="experience_divider">
-                        <img src="assets/images/company-logo.svg"
+                        <Image src="assets/images/company-logo.svg"
                             className="company_logo" alt="Swipewire Technologies" />
                         <h4 className="company_name">Swipewire Technologies</h4>
                         <p className="designation"><b>Designation :</b><span> Senior Frontend Developer</span></p>
@@ -55,7 +55,7 @@ const Experience = () => {
                         </div>
                     </div>
                     <div className="experience_divider">
-                        <img src="assets/images/company-logo.svg"
+                        <Image src="assets/images/company-logo.svg"
                             className="company_logo" alt="Clarisco Solutions" />
                         <h4 className="company_name">Clarisco Solutions</h4>
                         <p className="designation"><b>Designation :</b><span> Senior Frontend Developer</span></p>
@@ -74,7 +74,7 @@ const Experience = () => {
                         </div>
                     </div>
                     <div className="experience_divider">
-                        <img src="assets/images/company-logo.svg"
+                        <Image src="assets/images/company-logo.svg"
                             className="company_logo" alt="Story Digital" />
                         <h4 className="company_name">Story Digital</h4>
                         <p className="designation"><b>Designation :</b><span> Frontend Developer</span></p>
@@ -92,7 +92,7 @@ const Experience = () => {
                         </div>
                     </div>
                     <div className="experience_divider">
-                        <img src="assets/images/company-logo.svg"
+                        <Image src="assets/images/company-logo.svg"
                             className="company_logo" alt="Winzone Softech" />
                         <h4 className="company_name">Winzone Softech</h4>
                         <p className="designation"><b>Designation :</b><span> Frontend Developer</span></p>
@@ -111,7 +111,7 @@ const Experience = () => {
                     </div>
 
                     <div className="experience_divider">
-                        <img src="assets/images/company-logo.svg"
+                        <Image src="assets/images/company-logo.svg"
                             className="company_logo" alt="PlayNlive" />
                         <h4 className="company_name">PlayNlive</h4>
                         <p className="designation"><b>Designation :</b><span> Frontend Developer</span></p>
