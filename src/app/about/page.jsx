@@ -47,15 +47,15 @@ return (
                     <h1 className="about_title">Get to know about me!</h1>
                     <div className="about_content_block">
                         <h5>Bringing Ideas to Life through Code</h5>
-                        <p>Hello there! I'm Raja Thavamani, a passionate frontend developer with a keen eye for design and a love for transforming ideas into interactive and visually stunning digital experiences.</p>
+                        <p>Hello there! I&apos;m Raja Thavamani, a passionate frontend developer with a keen eye for design and a love for transforming ideas into interactive and visually stunning digital experiences.</p>
                     </div>
                     <div className="about_content_block">
                         <h5>Who Am I?</h5>
-                        <p>I'm not just a coder; I'm a storyteller in pixels and lines of code. From a young age, I've been fascinated by the intersection of technology and creativity. What started as a hobby turned into a lifelong pursuit of mastering the art of frontend development.</p>
+                        <p>I&apos;m not just a coder; I&apos;m a storyteller in pixels and lines of code. From a young age, I&apos;ve been fascinated by the intersection of technology and creativity. What started as a hobby turned into a lifelong pursuit of mastering the art of frontend development.</p>
                     </div>
                     <div className="about_content_block">
                         <h5>What I Do</h5>
-                        <p>In the vast world of web development, I specialize in crafting seamless and user-friendly interfaces. My toolbox includes HTML, CSS, and JavaScript, and I'm always on the lookout for the latest frontend frameworks and tools to elevate my projects.</p>
+                        <p>In the vast world of web development, I specialize in crafting seamless and user-friendly interfaces. My toolbox includes HTML, CSS, and JavaScript, and I&apos;m always on the lookout for the latest frontend frameworks and tools to elevate my projects.</p>
                     </div>
                     <div className="about_content_block">
                         <h5>My Approach</h5>

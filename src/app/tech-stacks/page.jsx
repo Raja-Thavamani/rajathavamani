@@ -110,7 +110,7 @@ const Techstacks = () => {
                             <h5>SEO</h5>
                         </li>
                     </ul>
-                </div>
+                </div>  
             </section>
         </main>
     );

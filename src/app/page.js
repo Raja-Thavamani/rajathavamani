@@ -7,8 +7,8 @@ export default function Home() {
       <section className="hero_section">
         <div className="hero_container">
           <div className="hero_content">
-            <h1>Hi, I'm Raja Thavamani</h1>
-            <h2>I'm Senior</h2>
+            <h1>Hi, I&apos;m Raja Thavamani</h1>
+            <h2>I&apos;m Senior</h2>
             <div className="typing_animation">
               <span>F</span>
               <span>r</span>
@@ -29,7 +29,7 @@ export default function Home() {
               <span>e</span>
               <span>r</span>
             </div>
-            <p>I'm a senior frontend developer. I can provide clean code and pixel perfect design.</p>
+            <p>I&apos;m a senior frontend developer. I can provide clean code and pixel perfect design.</p>
             <div className="hero_btns">
               <a href="/about" type="button" className="explore_btn">Explore <i className="bi bi-arrow-right"></i></a>
               <a href="/assets/pdf/rajathavamani-front-end-developer-cv.pdf" target='_blank' download="rajathavamani-front-end-developer-cv.pdf" type="button" className="download_btn">Download cv<i className="bi bi-download"></i></a>
