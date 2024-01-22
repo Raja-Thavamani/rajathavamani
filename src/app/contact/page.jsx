@@ -66,7 +66,7 @@ const Contact = () => {
               
                     </div>
                     <div className="contact_img_sec">
-                      <Image src="/assets/images/contact.svg" width={100} height={100} alt="contact" />
+                      <Image src="/assets/images/contact.svg" width="100%" height="100%" layout="responsive" objectFit="cover" alt="contact" />
                     </div>
                 </div>
             </section>

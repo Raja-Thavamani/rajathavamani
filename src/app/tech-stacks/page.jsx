@@ -38,75 +38,75 @@ const Techstacks = () => {
                     <h1 class="title">Tech Stacks</h1>
                     <ul>
                         <li>
-                            <Image src="assets/images/html.png" alt="" />
+                            <Image src="assets/images/html.png" width="100%" height="100%" layout="responsive" objectFit="cover" alt="" />
                             <h5>HTML</h5>
                         </li>
                         <li>
-                            <Image src="assets/images/css.png" alt="" />
+                            <Image src="assets/images/css.png" width="100%" height="100%" layout="responsive" objectFit="cover" alt="" />
                             <h5>CSS</h5>
                         </li>
                         <li>
-                            <Image src="assets/images/scss.png" alt="" />
+                            <Image src="assets/images/scss.png" width="100%" height="100%" layout="responsive" objectFit="cover" alt="" />
                             <h5>SCSS</h5>
                         </li>
                         <li>
-                            <Image src="assets/images/jquery.png" alt="" />
+                            <Image src="assets/images/jquery.png" width="100%" height="100%" layout="responsive" objectFit="cover" alt="" />
                             <h5>JQuery</h5>
                         </li>
                         <li>
-                            <Image src="assets/images/javascript.svg" alt="" />
+                            <Image src="assets/images/javascript.svg" width="100%" height="100%" layout="responsive" objectFit="cover" alt="" />
                             <h5>Javascript</h5>
                         </li>
                         <li>
-                            <Image src="assets/images/react.png" alt="" />
+                            <Image src="assets/images/react.png" width="100%" height="100%" layout="responsive" objectFit="cover" alt="" />
                             <h5>React Js</h5>
                         </li>
                         <li>
-                            <Image src="assets/images/nextjs.png" alt="" />
+                            <Image src="assets/images/nextjs.png" width="100%" height="100%" layout="responsive" objectFit="cover" alt="" />
                             <h5>Next Js</h5>
                         </li>
                         <li>
-                            <Image src="assets/images/laravel.png" alt="" />
+                            <Image src="assets/images/laravel.png" width="100%" height="100%" layout="responsive" objectFit="cover" alt="" />
                             <h5>Laravel</h5>
                         </li>
                         <li>
-                            <Image src="assets/images/mysql.png" alt="" />
+                            <Image src="assets/images/mysql.png" width="100%" height="100%" layout="responsive" objectFit="cover" alt="" />
                             <h5>MySql</h5>
                         </li>
                         <li>
-                            <Image src="assets/images/bootstrap.png" alt="" />
+                            <Image src="assets/images/bootstrap.png" width="100%" height="100%" layout="responsive" objectFit="cover" alt="" />
                             <h5>Boostrap</h5>
                         </li>
                         <li>
-                            <Image src="assets/images/chakra-ui.png" alt="" />
+                            <Image src="assets/images/chakra-ui.png" width="100%" height="100%" layout="responsive" objectFit="cover" alt="" />
                                 <h5>Chakra UI</h5>
                         </li>
                         <li>
-                            <Image src="assets/images/tailwind.png" alt="" />
+                            <Image src="assets/images/tailwind.png" width="100%" height="100%" layout="responsive" objectFit="cover" alt="" />
                             <h5>Tailwind CSS</h5>
                         </li>
                         <li>
-                            <Image src="assets/images/github.png" alt="" />
+                            <Image src="assets/images/github.png" width="100%" height="100%" layout="responsive" objectFit="cover" alt="" />
                             <h5>Github</h5>
                         </li>
                         <li>
-                            <Image src="assets/images/figma.png" alt="" />
+                            <Image src="assets/images/figma.png" width="100%" height="100%" layout="responsive" objectFit="cover" alt="" />
                             <h5>Figma</h5>
                         </li>
                         <li>
-                            <Image src="assets/images/bitbucket.png" alt="" />
+                            <Image src="assets/images/bitbucket.png" width="100%" height="100%" layout="responsive" objectFit="cover" alt="" />
                             <h5>Bitbucket</h5>
                         </li>
                         <li>
-                            <Image src="assets/images/vscode.png" alt="" />
+                            <Image src="assets/images/vscode.png" width="100%" height="100%" layout="responsive" objectFit="cover" alt="" />
                             <h5>VS Code</h5>
                         </li>
                         <li>
-                            <Image src="assets/images/greensock.webp" alt="" />
+                            <Image src="assets/images/greensock.webp" width="100%" height="100%" layout="responsive" objectFit="cover" alt="" />
                             <h5>GSAP</h5>
                         </li>
                         <li>
-                            <Image src="assets/images/seo.svg" alt="" />
+                            <Image src="assets/images/seo.svg" width="100%" height="100%" layout="responsive" objectFit="cover" alt="" />
                             <h5>SEO</h5>
                         </li>
                     </ul>
