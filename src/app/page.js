@@ -1,95 +1,57 @@
 import Image from 'next/image'
-import styles from './page.module.css'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <main>
+      <section className="hero_section">
+        <div className="hero_container">
+          <div className="hero_content">
+            <h1>Hi, I'm Raja Thavamani</h1>
+            <h2>I'm Senior</h2>
+            <div className="typing_animation">
+              <span>F</span>
+              <span>r</span>
+              <span>o</span>
+              <span>n</span>
+              <span>t</span>
+              <span>e</span>
+              <span>n</span>
+              <span>d</span>
+              <span>-</span>
+              <span>D</span>
+              <span>e</span>
+              <span>v</span>
+              <span>e</span>
+              <span>l</span>
+              <span>o</span>
+              <span>p</span>
+              <span>e</span>
+              <span>r</span>
+            </div>
+            <p>I'm a senior frontend developer. I can provide clean code and pixel perfect design.</p>
+            <div className="hero_btns">
+              <a href="/about" type="button" className="explore_btn">Explore <i className="bi bi-arrow-right"></i></a>
+              <a href="/assets/pdf/rajathavamani-front-end-developer-cv.pdf" target='_blank' download="rajathavamani-front-end-developer-cv.pdf" type="button" className="download_btn">Download cv<i className="bi bi-download"></i></a>
+            </div>
+            <div className="social_link_wrap">
+              <span>Follow me on :</span>
+              <div className="social_links">
+                <a href="#"><i className="bi bi-facebook"></i></a>
+                <a href="#"><i className="bi bi-twitter-x"></i></a>
+                <a href="#"><i className="bi bi-linkedin"></i></a>
+                <a href="#"><i className="bi bi-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+          <div className="hero_img">
+            <i className="bi bi-gem shape_a"></i>
+            <i className="bi bi-star-fill shape_b"></i>
+            <i className="bi bi-heart-fill shape_c"></i>
+            <i className="bi bi-triangle-fill shape_d"></i>
+            <Image src="/assets/images/hero.svg" width={100} height={100} alt="rajathavamani" />
+          </div>
         </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+      </section>
     </main>
   )
 }
