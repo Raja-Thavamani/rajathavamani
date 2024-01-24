@@ -41,7 +41,7 @@ return (
                     <i className="bi bi-stars shape_b"></i>
                     <i className="bi bi-circle-fill shape_c"></i>
                     <i className="bi bi-triangle-fill shape_d"></i>
-                    <Image src="/assets/images/about.svg" width="100%" height="100%" layout="responsive" objectFit="cover" alt="rajathavamani" />
+                    <Image src="/assets/images/about.svg" width={100} height={100} style={{ width: '100%', height: 'auto' }} sizes={"100vw"} quality={80} alt="rajathavamani" />
                 </div>
                 <div className="about_cnt_wrap">
                     <h1 className="about_title">Get to know about me!</h1>

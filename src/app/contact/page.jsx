@@ -30,7 +30,7 @@ export const metadata = {
 
 
 const Contact = () => {
-    
+
     return (
         <main>
             <section className="contact_section">
@@ -66,7 +66,7 @@ const Contact = () => {
               
                     </div>
                     <div className="contact_img_sec">
-                      <Image src="/assets/images/contact.svg" width="100%" height="100%" layout="responsive" objectFit="cover" alt="contact" />
+                      <Image src="/assets/images/contact.svg" width={100} height={100} style={{ width: '100%', height: 'auto' }} sizes={"100vw"} quality={80} placeholder="blur" alt="contact" />
                     </div>
                 </div>
             </section>

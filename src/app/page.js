@@ -49,7 +49,7 @@ export default function Home() {
             <i className="bi bi-star-fill shape_b"></i>
             <i className="bi bi-heart-fill shape_c"></i>
             <i className="bi bi-triangle-fill shape_d"></i>
-            <Image src="/assets/images/hero.svg" width="100%" height="100%" layout="responsive" objectFit="cover" alt="rajathavamani" />
+            <Image src="/assets/images/hero.svg" width={100} height={100} style={{ width: '100%', height: 'auto' }} sizes={"100vw"} quality={80} alt="rajathavamani" />
           </div>
         </div>
       </section>

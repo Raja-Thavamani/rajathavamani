@@ -176,7 +176,7 @@ a.contact_btn {
 
 .hero_container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 55% 35%;
     height: 100%;
     place-items: center;
 }

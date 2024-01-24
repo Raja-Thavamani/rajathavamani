@@ -36,7 +36,7 @@ const Enquiry = () => {
             <section className="enquiry_section">
                 <div className="enquiry_container">
                     <div className="enquiry_img_sec">
-                        <Image src="/assets/images/enquiry.svg" width="100%" height="100%" layout="responsive" objectFit="cover" alt="" />
+                        <Image src="/assets/images/enquiry.svg" width={100} height={100} style={{ width: '100%', height: 'auto' }} sizes={"100vw"} quality={80} alt="" />
                     </div>
                     <div className="enquiry_form_container">
                         <h1>Enquiry</h1>
