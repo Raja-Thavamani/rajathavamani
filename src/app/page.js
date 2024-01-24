@@ -1,6 +1,34 @@
 
 import Image from 'next/image';
 
+
+export const metadata = {
+  title: 'Home | Portfolio',
+  description: 'Frontend Developer | UI Developer | Website Designer | Html Developer',
+  openGraph: {
+    title: 'Home | Portfolio',
+    description: 'Senior Fronend Developer Portfolio',
+    url: 'http://localhost:3000/',
+    siteName: 'Portfolio',
+    images: [
+      {
+        url: '/assets/images/hero.svg',
+        width: 400,
+        height: 400,
+      },
+      {
+        url: 'http://localhost:3000/home-og-alt.png',
+        width: 1800,
+        height: 1600,
+        alt: 'My custom alt',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+}
+
+
 export default function Home() {
   return (
     <main>
