@@ -7,9 +7,9 @@ export const metadata = {
   description: 'Raja Thavamani Frontend Developer | Raja Thavamani UI Developer | Raja Thavamani Website Designer | Raja Thavamani Html Developer',
   openGraph: {
     title: 'Home | Raja Thavamani Portfolio',
-    description: 'Raja Thavamani | Senior Fronend Developer Portfolio',
-    url: 'http://localhost:3000/',
-    siteName: 'Raja Thavamani Portfolio',
+    description: 'Raja Thavamani - I am a Senior Fronend Developer with 7+ years experience using HTML, CSS, JQuery, and Javascript.',
+    url: 'https://rajathavamani.vercel.app',
+    siteName: 'Raja Thavamani | Senior Fronend Developer Portfolio',
     images: [
       {
         url: 'https://rajathavamani.vercel.app/assets/images/rajathavamani.svg',
@@ -17,10 +17,10 @@ export const metadata = {
         height: 400,
       },
       {
-        url: 'https://rajathavamani.vercel.app/assets/images/about.svg',
+        url: 'https://rajathavamani.vercel.app/assets/images/rajathavamani.svg',
         width: 400,
         height: 400,
-        alt: 'Raja Thavamani | Senior Frontend Developer',
+        alt: 'Raja Thavamani - Senior Frontend Developer',
       },
     ],
     locale: 'en_US',

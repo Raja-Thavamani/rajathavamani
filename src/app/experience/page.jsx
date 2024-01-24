@@ -7,20 +7,20 @@ export const metadata = {
   description: 'Frontend Developer | UI Developer | Website Designer | Html Developer',
   openGraph: {
     title: 'Experience | Portfolio',
-    description: 'Senior Fronend Developer Portfolio',
-    url: 'http://localhost:3000/experience',
+    description: 'Raja Thavamani - I am a Senior Fronend Developer with 7+ years experience using HTML, CSS, JQuery, and Javascript.',
+    url: 'https://rajathavamani.vercel.app/portfolio',
     siteName: 'Portfolio',
     images: [
       {
-        url: 'http://localhost:3000/experience/experience-og.png',
+        url: 'https://rajathavamani.vercel.app/assets/images/rajathavamani.svg',
         width: 800,
         height: 600,
       },
       {
-        url: 'http://localhost:3000/experience/experience-og-alt.png',
+        url: 'https://rajathavamani.vercel.app/assets/images/rajathavamani.svg',
         width: 1800,
         height: 1600,
-        alt: 'My custom alt',
+        alt: 'Raja Thavamani - Senior Frontend Developer',
       },
     ],
     locale: 'en_US',

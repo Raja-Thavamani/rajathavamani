@@ -9,19 +9,19 @@ export const metadata = {
   openGraph: {
     title: 'About | Portfolio',
     description: 'Raja Thavamani - I am a Senior Fronend Developer with 7+ years experience using HTML, CSS, JQuery, and Javascript.',
-    url: 'http://localhost:3000/about',
+    url: 'https://rajathavamani.vercel.app/about',
     siteName: 'Portfolio',
     images: [
       {
-        url: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4',
+        url: 'https://rajathavamani.vercel.app/assets/images/rajathavamani.svg',
         width: 800,
         height: 600,
       },
       {
-        url: 'http://localhost:3000/about-og-alt.png',
+        url: 'https://rajathavamani.vercel.app/assets/images/rajathavamani.svg',
         width: 1800,
         height: 1600,
-        alt: 'My custom alt',
+        alt: 'Raja Thavamani - Senior Frontend Developer',
       },
     ],
     locale: 'en_US',
