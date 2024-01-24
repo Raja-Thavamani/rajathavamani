@@ -12,12 +12,12 @@ export const metadata = {
     siteName: 'Raja Thavamani Portfolio',
     images: [
       {
-        url: '/assets/images/rajathavamani.svg',
+        url: 'https://rajathavamani.vercel.app/assets/images/rajathavamani.svg',
         width: 400,
         height: 400,
       },
       {
-        url: '/assets/images/rajathavamani.svg',
+        url: 'https://rajathavamani.vercel.app/assets/images/about.svg',
         width: 400,
         height: 400,
         alt: 'Raja Thavamani | Senior Frontend Developer',
