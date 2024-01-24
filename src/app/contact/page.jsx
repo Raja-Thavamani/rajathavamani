@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 
 export const metadata = {
-  title: 'Contact | Portfolio',
+  title: 'Contact | Raja Thavamani',
   description: 'Frontend Developer | UI Developer | Website Designer | Html Developer',
   openGraph: {
     title: 'Contact | Portfolio',

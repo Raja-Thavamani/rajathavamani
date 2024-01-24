@@ -3,7 +3,7 @@ import React from "react";
 
 
 export const metadata = {
-  title: 'Curriculum Vitae | Portfolio',
+  title: 'Curriculum Vitae | Raja Thavamani',
   description: 'Frontend Developer | UI Developer | Website Designer | Html Developer',
   openGraph: {
     title: 'Curriculum Vitae | Portfolio',
