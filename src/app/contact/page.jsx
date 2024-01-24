@@ -37,7 +37,7 @@ const Contact = () => {
                 <div className="contact_container">
                     <div className="contact_content_sec">
               
-                          <h1>Contact</h1>
+                          <h1>Contacts</h1>
               
                           <a href="tel:9655005530" target="_blank" className="contact_items">
                             <p><i class="bi bi-telephone"></i>Mobile</p>
