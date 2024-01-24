@@ -6,6 +6,22 @@ import '../../public/assets/css/index.css';
 import Header from './components/header';
 import Footer from './components/footer';
 
+
+export const metadata = {
+  title: 'Home | Raja Thavamani',
+  description: 'Raja Thavamani Frontend Developer | Raja Thavamani UI Developer | Raja Thavamani Website Designer | Raja Thavamani Html Developer',
+  keywords: ["Frontend Developer", "UI Developer", "Website Developer", "Html Developer, UI Engineer, User Interface Developer, Reactjs Developer, Nextjs Developer, Javascript Developer"],
+  openGraph: {
+    title: 'Home | Raja Thavamani Portfolio',
+    description: 'Raja Thavamani - I am a Senior Fronend Developer with 7+ years experience using HTML, CSS, JQuery, and Javascript.',
+    url: 'https://rajathavamani.vercel.app',
+    siteName: 'Raja Thavamani | Senior Fronend Developer Portfolio',
+    images: 'https://rajathavamani.vercel.app/assets/images/rajathavamani-senior-frontend-developer.jpg',
+    locale: 'en_US',
+    type: 'Portfolio Website',
+  },
+}
+
 export default function RootLayout({ children }) {
   return (
 
