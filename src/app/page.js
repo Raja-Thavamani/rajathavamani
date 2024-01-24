@@ -5,26 +5,15 @@ import Image from 'next/image';
 export const metadata = {
   title: 'Home | Raja Thavamani Portfolio',
   description: 'Raja Thavamani Frontend Developer | Raja Thavamani UI Developer | Raja Thavamani Website Designer | Raja Thavamani Html Developer',
+  keywords: ["Frontend Developer", "UI Developer", "Website Developer", "Html Developer, UI Engineer, User Interface Developer, Reactjs Developer, Nextjs Developer, Javascript Developer"],
   openGraph: {
     title: 'Home | Raja Thavamani Portfolio',
     description: 'Raja Thavamani - I am a Senior Fronend Developer with 7+ years experience using HTML, CSS, JQuery, and Javascript.',
     url: 'https://rajathavamani.vercel.app',
     siteName: 'Raja Thavamani | Senior Fronend Developer Portfolio',
-    images: [
-      {
-        url: 'https://rajathavamani.vercel.app/assets/images/rajathavamani.svg',
-        width: 400,
-        height: 400,
-      },
-      {
-        url: 'https://rajathavamani.vercel.app/assets/images/rajathavamani.svg',
-        width: 400,
-        height: 400,
-        alt: 'Raja Thavamani - Senior Frontend Developer',
-      },
-    ],
+    images: 'https://rajathavamani.vercel.app/assets/images/rajathavamani.svg',
     locale: 'en_US',
-    type: 'website',
+    type: 'Portfolio Website',
   },
 }
 
