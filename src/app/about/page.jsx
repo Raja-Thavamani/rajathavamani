@@ -4,16 +4,16 @@ import Image from 'next/image';
 
 
 export const metadata = {
-  title: 'About | Portfolio',
-  description: 'Frontend Developer | UI Developer | Website Designer | Html Developer',
+  title: 'About | Raja Thavamani Portfolio',
+  description: 'Raja Thavamani Senior Frontend Developer | Raja Thavamani UI Developer | Raja Thavamani Website Designer | Raja Thavamani Html Developer',
   openGraph: {
     title: 'About | Portfolio',
-    description: 'Senior Fronend Developer Portfolio',
+    description: 'Raja Thavamani - I am a Senior Fronend Developer with 7+ years experience using HTML, CSS, JQuery, and Javascript.',
     url: 'http://localhost:3000/about',
     siteName: 'Portfolio',
     images: [
       {
-        url: 'http://localhost:3000/about/about-og.png',
+        url: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4',
         width: 800,
         height: 600,
       },
