@@ -3,24 +3,24 @@ import Image from 'next/image';
 
 
 export const metadata = {
-  title: 'Home | Portfolio',
-  description: 'Frontend Developer | UI Developer | Website Designer | Html Developer',
+  title: 'Home | Raja Thavamani Portfolio',
+  description: 'Raja Thavamani Frontend Developer | Raja Thavamani UI Developer | Raja Thavamani Website Designer | Raja Thavamani Html Developer',
   openGraph: {
-    title: 'Home | Portfolio',
-    description: 'Senior Fronend Developer Portfolio',
+    title: 'Home | Raja Thavamani Portfolio',
+    description: 'Raja Thavamani | Senior Fronend Developer Portfolio',
     url: 'http://localhost:3000/',
-    siteName: 'Portfolio',
+    siteName: 'Raja Thavamani Portfolio',
     images: [
       {
-        url: '/assets/images/hero.svg',
+        url: '/assets/images/rajathavamani.svg',
         width: 400,
         height: 400,
       },
       {
-        url: 'http://localhost:3000/home-og-alt.png',
-        width: 1800,
-        height: 1600,
-        alt: 'My custom alt',
+        url: '/assets/images/rajathavamani.svg',
+        width: 400,
+        height: 400,
+        alt: 'Raja Thavamani | Senior Frontend Developer',
       },
     ],
     locale: 'en_US',
