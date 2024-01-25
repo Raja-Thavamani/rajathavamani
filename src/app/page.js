@@ -3,13 +3,13 @@ import Image from 'next/image';
 
 export const metadata = {
   title: 'Home | Raja Thavamani - Portfolio',
+  description: 'Hey! I&apos;m Raja Thavamani, a seasoned Senior Frontend Developer. With 7+ years of hands- on experience in front-end development, I&apos;ve honed my skills to perfection.',
   keywords: 'Frontend Developer | UI Developer | Website Designer | Html Developer',
-  description: 'Raja Thavamani - I am a Senior Fronend Developer with 7+ years experience using HTML, CSS, JQuery, and Javascript.',
   openGraph: {
-    title: 'Home | Raja Thavamani - Portfolio',
+    title: 'Home | Raja Thavamani - Senior Frontend Developer Portfolio',
     description: 'Raja Thavamani - I am a Senior Fronend Developer with 7+ years experience using HTML, CSS, JQuery, and Javascript.',
     url: 'https://rajathavamani.vercel.app/',
-    siteName: 'Portfolio',
+    siteName: 'Raja Thavamani | Senior Frontend Developer Portfolio',
     images: [
       {
         url: 'https://rajathavamani.vercel.app/assets/images/rajathavamani.jpg',

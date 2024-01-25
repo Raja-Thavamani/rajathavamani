@@ -5,7 +5,8 @@ import Image from 'next/image';
 
 export const metadata = {
   title: 'About | Raja Thavamani',
-  description: 'Raja Thavamani Senior Frontend Developer | Raja Thavamani UI Developer | Raja Thavamani Website Designer | Raja Thavamani Html Developer',
+  description: 'Raja Thavamani is a skilled front-end developer who is passionate about creating responsive web apps and turning ideas into interactive and user-friendly apps.',
+  keywords: 'Frontend Developer | UI Developer | Website Designer | Html Developer',
   openGraph: {
     title: 'About | Portfolio',
     description: 'Raja Thavamani - I am a Senior Fronend Developer with 7+ years experience using HTML, CSS, JQuery, and Javascript.',

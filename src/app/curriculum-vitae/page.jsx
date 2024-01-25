@@ -4,7 +4,7 @@ import React from "react";
 
 export const metadata = {
   title: 'Curriculum Vitae | Raja Thavamani',
-  description: 'Frontend Developer | UI Developer | Website Designer | Html Developer',
+  description: 'I am a UI developer who specializes in creating responsive and dynamic web apps. I have experience in HTML, CSS, JQuery, JavaScript, Laravel, React, and NextJs.',
   openGraph: {
     title: 'Curriculum Vitae | Portfolio',
     description: 'Raja Thavamani - I am a Senior Fronend Developer with 7+ years experience using HTML, CSS, JQuery, and Javascript.',

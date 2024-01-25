@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export const metadata = {
   title: 'Contact | Raja Thavamani',
-  description: 'Frontend Developer | UI Developer | Website Designer | Html Developer',
+  description: 'A passionate front-end designer creating smooth digital experiences. Connect with me and bring your visions to life. Connect with me for creative web solutions.',
   openGraph: {
     title: 'Contact | Portfolio',
     description: 'Raja Thavamani - I am a Senior Fronend Developer with 7+ years experience using HTML, CSS, JQuery, and Javascript.',
