@@ -53,7 +53,7 @@ li {
 .logo h4 {
     font-size: 20px;
     font-family: 'Mulish', sans-serif;
-    letter-spacing: 1.2px;
+    letter-spacing: 1px;
     background: radial-gradient(circle,
             var(--brand-primary) 0%,
             var(--brand-secondary) 25%,
@@ -385,7 +385,7 @@ a.download_btn:hover i {
 }
 
 .social_links i {
-    font-size: 24px;
+    font-size: 20px;
     color: var(--foreColor);
 }
 
@@ -707,7 +707,8 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
-    padding: 20px;
+    align-items: center;
+    padding: 15px 0px;
 }
 
 .foo_content {
@@ -737,12 +738,22 @@ footer {
 
 .foo_social_links a {
     color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: #202020;
+    border-radius: 50%;
 }
 
 .foo_social_links a i {
     font-size: 20px;
 }
 
+.foo_social_links a:hover {
+    background-color: var(--brand-primary);
+}
 
 .contact_container {
     display: grid;

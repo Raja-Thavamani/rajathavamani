@@ -7,7 +7,7 @@ export const metadata = {
   keywords: 'Frontend Developer | UI Developer | Website Designer | Html Developer',
   openGraph: {
     title: 'Home | Raja Thavamani - Senior Frontend Developer Portfolio',
-    description: 'Raja Thavamani - I am a Senior Fronend Developer with 7+ years experience using HTML, CSS, JQuery, and Javascript.',
+    description: 'Hey! I&apos;m Raja Thavamani, a seasoned Senior Frontend Developer. With 7+ years of hands- on experience in front-end development, I&apos;ve honed my skills to perfection.',
     url: 'https://rajathavamani.vercel.app/',
     siteName: 'Raja Thavamani | Senior Frontend Developer Portfolio',
     images: [

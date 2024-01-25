@@ -9,7 +9,7 @@ export const metadata = {
   keywords: 'Frontend Developer | UI Developer | Website Designer | Html Developer',
   openGraph: {
     title: 'About | Portfolio',
-    description: 'Raja Thavamani - I am a Senior Fronend Developer with 7+ years experience using HTML, CSS, JQuery, and Javascript.',
+    description: 'Raja Thavamani is a skilled front-end developer who is passionate about creating responsive web apps and turning ideas into interactive and user-friendly apps.',
     url: 'https://rajathavamani.vercel.app/about',
     siteName: 'Portfolio',
     images: [
@@ -17,13 +17,7 @@ export const metadata = {
         url: 'https://rajathavamani.vercel.app/assets/images/rajathavamani.jpg',
         width: 800,
         height: 600,
-      },
-      {
-        url: 'https://rajathavamani.vercel.app/assets/images/rajathavamani.jpg',
-        width: 1800,
-        height: 1600,
-        alt: 'Raja Thavamani - Senior Frontend Developer',
-      },
+      }
     ],
     locale: 'en_US',
     type: 'website',

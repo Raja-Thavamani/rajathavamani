@@ -7,20 +7,14 @@ export const metadata = {
   description: 'I&apos;m a front-end developer with a passion for creating engaging and responsive Web experiences. Let&apos;s work together on your next app for a smooth user experience!',
   openGraph: {
     title: 'Enquiry | Portfolio',
-    description: 'Raja Thavamani - I am a Senior Fronend Developer with 7+ years experience using HTML, CSS, JQuery, and Javascript.',
+    description: 'I&apos;m a front-end developer with a passion for creating engaging and responsive Web experiences. Let&apos;s work together on your next app for a smooth user experience!',
     url: 'https://rajathavamani.vercel.app/enquiry',
     siteName: 'Portfolio',
     images: [
       {
-        url: 'https://rajathavamani.vercel.app/assets/images/rajathavamani.svg',
+        url: 'https://rajathavamani.vercel.app/assets/images/rajathavamani.jpg',
         width: 800,
         height: 600,
-      },
-      {
-        url: 'https://rajathavamani.vercel.app/assets/images/rajathavamani.svg',
-        width: 1800,
-        height: 1600,
-        alt: 'Raja Thavamani - Senior Frontend Developer',
       },
     ],
     locale: 'en_US',

@@ -1,26 +1,19 @@
 import React from "react";
 import Image from 'next/image';
 
-
 export const metadata = {
   title: 'Experience | Raja Thavamani',
   description: 'I am best at creating the best user experience through innovative front-end development. Improve your presence with the latest technology and responsive design.',
   openGraph: {
     title: 'Experience | Portfolio',
-    description: 'Raja Thavamani - I am a Senior Fronend Developer with 7+ years experience using HTML, CSS, JQuery, and Javascript.',
+    description: 'I am best at creating the best user experience through innovative front-end development. Improve your presence with the latest technology and responsive design.',
     url: 'https://rajathavamani.vercel.app/portfolio',
     siteName: 'Portfolio',
     images: [
       {
-        url: 'https://rajathavamani.vercel.app/assets/images/rajathavamani.svg',
+        url: 'https://rajathavamani.vercel.app/assets/images/rajathavamani.jpg',
         width: 800,
         height: 600,
-      },
-      {
-        url: 'https://rajathavamani.vercel.app/assets/images/rajathavamani.svg',
-        width: 1800,
-        height: 1600,
-        alt: 'Raja Thavamani - Senior Frontend Developer',
       },
     ],
     locale: 'en_US',

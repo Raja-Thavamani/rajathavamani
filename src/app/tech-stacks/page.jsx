@@ -7,20 +7,14 @@ export const metadata = {
   description: 'Delivering exceptional user experiences through HTML, CSS, JavaScript, Laravel, Angular, React, and Nextjs. Translating concepts into captivating interfaces.',
   openGraph: {
     title: 'Raja Thavamani - Tech Stacks | Portfolio',
-    description: 'Raja Thavamani - I am a Senior Fronend Developer with 7+ years experience using HTML, CSS, JQuery, and Javascript.',
+    description: 'Delivering exceptional user experiences through HTML, CSS, JavaScript, Laravel, Angular, React, and Nextjs. Translating concepts into captivating interfaces.',
     url: 'https://rajathavamani.vercel.app/tech-stacks',
     siteName: 'Portfolio',
     images: [
       {
-        url: 'https://rajathavamani.vercel.app/assets/images/rajathavamani.svg',
+        url: 'https://rajathavamani.vercel.app/assets/images/rajathavamani.jpg',
         width: 800,
         height: 600,
-      },
-      {
-        url: 'https://rajathavamani.vercel.app/assets/images/rajathavamani.svg',
-        width: 1800,
-        height: 1600,
-        alt: 'Raja Thavamani - Senior Frontend Developer',
       },
     ],
     locale: 'en_US',
