@@ -2,14 +2,14 @@
 import Image from 'next/image';
 
 export const metadata = {
-  title: 'Home | Raja Thavamani - Portfolio',
+  title: 'Home | Raja Thavamani - Senior Frontend Developer Portfolio',
   description: 'Hey! I&apos;m Raja Thavamani, a seasoned Senior Frontend Developer. With 7+ years of hands- on experience in front-end development, I&apos;ve honed my skills to perfection.',
   keywords: 'Frontend Developer | UI Developer | Website Designer | Html Developer',
   openGraph: {
     title: 'Home | Raja Thavamani - Senior Frontend Developer Portfolio',
     description: 'Hey! I&apos;m Raja Thavamani, a seasoned Senior Frontend Developer. With 7+ years of hands- on experience in front-end development, I&apos;ve honed my skills to perfection.',
     url: 'https://rajathavamani.vercel.app/',
-    siteName: 'Raja Thavamani | Senior Frontend Developer Portfolio',
+    siteName: 'Home | Raja Thavamani - Senior Frontend Developer Portfolio',
     images: [
       {
         url: 'https://rajathavamani.vercel.app/assets/images/rajathavamani.jpg',
