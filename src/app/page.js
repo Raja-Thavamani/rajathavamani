@@ -13,8 +13,8 @@ export const metadata = {
     images: [
       {
         url: 'https://rajathavamani.vercel.app/assets/images/rajathavamani.jpg',
-        width: 800,
-        height: 600,
+        width: 256,
+        height: 256,
       },
     ],
     locale: 'en_US',
