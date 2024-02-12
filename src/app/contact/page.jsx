@@ -34,33 +34,47 @@ const Contact = () => {
                           <h1>Contacts</h1>
               
                           <a href="tel:9655005530" target="_blank" className="contact_items">
-                            <p><i class="bi bi-telephone"></i>Mobile</p>
-                            <h6>9655005530</h6>
+                            <div className="contact_social_icons"><i className="bi bi-telephone"></i></div>
+                            <div className="contact_social_text">
+                              <h6 className="title">Mobile</h6>
+                              <h6 className="scl_sub_text">9655005530</h6>
+                            </div>
                           </a>
                       
                           <a href="mailto:rajathavamani.tech@gmail.com" target="_blank" className="contact_items">
-                            <p><i class="bi bi-envelope"></i>Email</p>
-                            <h6>rajathavamani.tech@gmail.com</h6>
+                            <div className="contact_social_icons"><i className="bi bi-envelope"></i></div>
+                            <div className="contact_social_text">
+                              <h6 className="title">Email</h6>
+                              <h6 className="scl_sub_text">rajathavamani.tech@gmail.com</h6>
+                            </div>
                           </a>
 
-                          <a href="https://wa.me/9655005530?text=Hello" target="_blank" className="contact_items">
-                            <p><i class="bi bi-whatsapp"></i>Whatsapp</p>
-                            <h6>https://wa.me/9655005530?text=Hello</h6>
+                          <a href="https://api.whatsapp.com/send?phone=919655005530&text=Hi%20Raja%20Thavamani,%20I%20am%20interested!" target="_blank" className="contact_items">
+                            <div className="contact_social_icons"><i className="bi bi-whatsapp"></i></div>
+                            <div className="contact_social_text">
+                              <h6 className="title">Whatsapp</h6>
+                            </div>
                           </a>
               
                           <a href="https://in.linkedin.com/in/rajathavamani-tech" target="_blank" className="contact_items">
-                            <p><i class="bi bi-linkedin"></i>LinkedIn</p>
-                            <h6>https://in.linkedin.com/in/rajathavamani-tech</h6>
+                            <div className="contact_social_icons"><i className="bi bi-linkedin"></i></div>
+                            <div className="contact_social_text">
+                              <h6 className="title">LinkedIn</h6>
+                              <h6 className="scl_sub_text">https://in.linkedin.com/in/rajathavamani-tech</h6>
+                            </div>
                           </a>
               
                           <a href="https://github.com/Raja-Thavamani" target="_blank" className="contact_items">
-                            <p><i class="bi bi-github"></i>Github</p>
-                            <h6>https://github.com/Raja-Thavamani</h6>
+                            <div className="contact_social_icons"><i className="bi bi-github"></i></div>
+                            <div className="contact_social_text">
+                                <h6 className="title">Github</h6>
+                                <h6 className="scl_sub_text">https://github.com/Raja-Thavamani</h6>
+                            </div>
                           </a>
               
                     </div>
                     <div className="contact_img_sec">
-                      <Image src="/assets/images/contact.svg" width={100} height={100} style={{ width: '100%', height: 'auto' }} sizes={"100vw"} quality={80} placeholder="blur" alt="contact" />
+                      <Image src="/assets/images/contact.svg" width={100} height={100} style={{ width: '100%', height: 'auto' }} sizes={"100vw"} quality={80}  alt="contact" />
                     </div>
                 </div>
             </section>

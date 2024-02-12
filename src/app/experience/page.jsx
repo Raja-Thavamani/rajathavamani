@@ -27,7 +27,7 @@ const Experience = () => {
     return (
         <main>
             <section className="experience_section">
-                <h1 className="page_title">Experience</h1>
+                <h1 className="page_title">My Experience</h1>
                 <div className="experience_container">
                     <div className="experience_divider">
                         <Image src="/assets/images/company-logo.svg" className="company_logo" width={0} height={0} style={{ width: '60px', height: 'auto' }} sizes={"100vw"} quality={80} alt="Swipewire Technologies" />
@@ -38,12 +38,12 @@ const Experience = () => {
                         <p className="job_desc_title"><b>Job Description :</b></p>
                              
                         <div>
-                            <p className="job_desc_list"><i class="bi bi-arrow-right"></i>designing and implementing modern and responsive user interfaces for web applications.</p>
-                            <p className="job_desc_list"><i class="bi bi-arrow-right"></i>Collaborated with UX designers to translate wireframes and prototypes into seamless user experiences.</p>
-                            <p className="job_desc_list"><i class="bi bi-arrow-right"></i>Implemented and maintained front-end code standards and best practices to ensure consistency and scalability across projects.</p>
-                            <p className="job_desc_list"><i class="bi bi-arrow-right"></i>Conducted code reviews and provided constructive feedback to team members, fostering a culture of continuous improvement.</p>
-                            <p className="job_desc_list"><i class="bi bi-arrow-right"></i>Worked closely with back-end developers to integrate front-end components with server-side logic and databases.</p>
-                            <p className="job_desc_list"><i class="bi bi-arrow-right"></i>Utilized HTML, CSS, JavaScript, Jquery, Bootstrap, Figma, Flexbox, Bitbucket, Github, and using Laravel frameworks to develop user interfaces that meet business requirements.</p>
+                            <p className="job_desc_list"><i className="bi bi-arrow-right"></i>designing and implementing modern and responsive user interfaces for web applications.</p>
+                            <p className="job_desc_list"><i className="bi bi-arrow-right"></i>Collaborated with UX designers to translate wireframes and prototypes into seamless user experiences.</p>
+                            <p className="job_desc_list"><i className="bi bi-arrow-right"></i>Implemented and maintained front-end code standards and best practices to ensure consistency and scalability across projects.</p>
+                            <p className="job_desc_list"><i className="bi bi-arrow-right"></i>Conducted code reviews and provided constructive feedback to team members, fostering a culture of continuous improvement.</p>
+                            <p className="job_desc_list"><i className="bi bi-arrow-right"></i>Worked closely with back-end developers to integrate front-end components with server-side logic and databases.</p>
+                            <p className="job_desc_list"><i className="bi bi-arrow-right"></i>Utilized HTML, CSS, JavaScript, Jquery, Bootstrap, Figma, Flexbox, Bitbucket, Github, and using Laravel frameworks to develop user interfaces that meet business requirements.</p>
                         </div>
                     </div>
                     <div className="experience_divider">
@@ -56,12 +56,12 @@ const Experience = () => {
                            
                             
                         <div>
-                            <p className="job_desc_list"><i class="bi bi-arrow-right"></i>designing and implementing modern and responsive user interfaces for web applications.</p>
-                            <p className="job_desc_list"><i class="bi bi-arrow-right"></i>Collaborated with UX designers to translate wireframes and prototypes into seamless user experiences.</p>
-                            <p className="job_desc_list"><i class="bi bi-arrow-right"></i>Implemented and maintained front-end code standards and best practices to ensure consistency and scalability across projects.</p>
-                            <p className="job_desc_list"><i class="bi bi-arrow-right"></i>Conducted code reviews and provided constructive feedback to team members, fostering a culture of continuous improvement.</p>
-                            <p className="job_desc_list"><i class="bi bi-arrow-right"></i>Worked closely with back-end developers to integrate front-end components with server-side logic and databases.</p>
-                            <p className="job_desc_list"><i class="bi bi-arrow-right"></i>Utilized HTML, CSS, JavaScript, Jquery, Bootstrap, Figma, Flexbox, Bitbucket, Github, and using Nodejs frameworks to develop user interfaces that meet business requirements.</p>
+                            <p className="job_desc_list"><i className="bi bi-arrow-right"></i>designing and implementing modern and responsive user interfaces for web applications.</p>
+                            <p className="job_desc_list"><i className="bi bi-arrow-right"></i>Collaborated with UX designers to translate wireframes and prototypes into seamless user experiences.</p>
+                            <p className="job_desc_list"><i className="bi bi-arrow-right"></i>Implemented and maintained front-end code standards and best practices to ensure consistency and scalability across projects.</p>
+                            <p className="job_desc_list"><i className="bi bi-arrow-right"></i>Conducted code reviews and provided constructive feedback to team members, fostering a culture of continuous improvement.</p>
+                            <p className="job_desc_list"><i className="bi bi-arrow-right"></i>Worked closely with back-end developers to integrate front-end components with server-side logic and databases.</p>
+                            <p className="job_desc_list"><i className="bi bi-arrow-right"></i>Utilized HTML, CSS, JavaScript, Jquery, Bootstrap, Figma, Flexbox, Bitbucket, Github, and using Nodejs frameworks to develop user interfaces that meet business requirements.</p>
                         </div>
                     </div>
                     <div className="experience_divider">
@@ -73,12 +73,12 @@ const Experience = () => {
                         <p className="job_desc_title"><b>Job Description :</b></p>
                           
                         <div>
-                            <p className="job_desc_list"><i class="bi bi-arrow-right"></i>designing and implementing modern and responsive user interfaces for web applications.</p>
-                            <p className="job_desc_list"><i class="bi bi-arrow-right"></i>Collaborated with UX designers to translate wireframes and prototypes into seamless user experiences.</p>
-                            <p className="job_desc_list"><i class="bi bi-arrow-right"></i>Implemented and maintained front-end code standards and best practices to ensure consistency and scalability across projects.</p>
-                            <p className="job_desc_list"><i class="bi bi-arrow-right"></i>Conducted code reviews and provided constructive feedback to team members, fostering a culture of continuous improvement.</p>
-                            <p className="job_desc_list"><i class="bi bi-arrow-right"></i>Worked closely with back-end developers to integrate front-end components with server-side logic and databases.</p>
-                            <p className="job_desc_list"><i class="bi bi-arrow-right"></i>Utilized HTML, CSS, JavaScript, Jquery, Bootstrap, Figma, Flexbox, Bitbucket, Github, and using React frameworks to develop user interfaces that meet business requirements.</p>
+                            <p className="job_desc_list"><i className="bi bi-arrow-right"></i>designing and implementing modern and responsive user interfaces for web applications.</p>
+                            <p className="job_desc_list"><i className="bi bi-arrow-right"></i>Collaborated with UX designers to translate wireframes and prototypes into seamless user experiences.</p>
+                            <p className="job_desc_list"><i className="bi bi-arrow-right"></i>Implemented and maintained front-end code standards and best practices to ensure consistency and scalability across projects.</p>
+                            <p className="job_desc_list"><i className="bi bi-arrow-right"></i>Conducted code reviews and provided constructive feedback to team members, fostering a culture of continuous improvement.</p>
+                            <p className="job_desc_list"><i className="bi bi-arrow-right"></i>Worked closely with back-end developers to integrate front-end components with server-side logic and databases.</p>
+                            <p className="job_desc_list"><i className="bi bi-arrow-right"></i>Utilized HTML, CSS, JavaScript, Jquery, Bootstrap, Figma, Flexbox, Bitbucket, Github, and using React frameworks to develop user interfaces that meet business requirements.</p>
                         </div>
                     </div>
                     <div className="experience_divider">
@@ -90,12 +90,12 @@ const Experience = () => {
                             <p className="job_desc_title"><b>Job Description :</b></p>
                             
                         <div>
-                            <p className="job_desc_list"><i class="bi bi-arrow-right"></i>designing and implementing modern and responsive user interfaces for web applications.</p>
-                            <p className="job_desc_list"><i class="bi bi-arrow-right"></i>Collaborated with UX designers to translate wireframes and prototypes into seamless user experiences.</p>
-                            <p className="job_desc_list"><i class="bi bi-arrow-right"></i>Implemented and maintained front-end code standards and best practices to ensure consistency and scalability across projects.</p>
-                            <p className="job_desc_list"><i class="bi bi-arrow-right"></i>Conducted code reviews and provided constructive feedback to team members, fostering a culture of continuous improvement.</p>
-                            <p className="job_desc_list"><i class="bi bi-arrow-right"></i>Worked closely with back-end developers to integrate front-end components with server-side logic and databases.</p>
-                            <p className="job_desc_list"><i class="bi bi-arrow-right"></i>Utilized HTML, CSS, JavaScript, Jquery, Bootstrap, Figma, Flexbox, Bitbucket and Github to develop user interfaces that meet business requirements.</p>
+                            <p className="job_desc_list"><i className="bi bi-arrow-right"></i>designing and implementing modern and responsive user interfaces for web applications.</p>
+                            <p className="job_desc_list"><i className="bi bi-arrow-right"></i>Collaborated with UX designers to translate wireframes and prototypes into seamless user experiences.</p>
+                            <p className="job_desc_list"><i className="bi bi-arrow-right"></i>Implemented and maintained front-end code standards and best practices to ensure consistency and scalability across projects.</p>
+                            <p className="job_desc_list"><i className="bi bi-arrow-right"></i>Conducted code reviews and provided constructive feedback to team members, fostering a culture of continuous improvement.</p>
+                            <p className="job_desc_list"><i className="bi bi-arrow-right"></i>Worked closely with back-end developers to integrate front-end components with server-side logic and databases.</p>
+                            <p className="job_desc_list"><i className="bi bi-arrow-right"></i>Utilized HTML, CSS, JavaScript, Jquery, Bootstrap, Figma, Flexbox, Bitbucket and Github to develop user interfaces that meet business requirements.</p>
                         </div>
                     </div>
 
@@ -108,12 +108,12 @@ const Experience = () => {
                             <p className="job_desc_title"><b>Job Description :</b></p>
                             
                         <div>
-                            <p className="job_desc_list"><i class="bi bi-arrow-right"></i>designing and implementing modern and responsive user interfaces for web applications.</p>
-                            <p className="job_desc_list"><i class="bi bi-arrow-right"></i>Collaborated with UX designers to translate wireframes and prototypes into seamless user experiences.</p>
-                            <p className="job_desc_list"><i class="bi bi-arrow-right"></i>Implemented and maintained front-end code standards and best practices to ensure consistency and scalability across projects.</p>
-                            <p className="job_desc_list"><i class="bi bi-arrow-right"></i>Conducted code reviews and provided constructive feedback to team members, fostering a culture of continuous improvement.</p>
-                            <p className="job_desc_list"><i class="bi bi-arrow-right"></i>Worked closely with back-end developers to integrate front-end components with server-side logic and databases.</p>
-                            <p className="job_desc_list"><i class="bi bi-arrow-right"></i>Utilized HTML, CSS, JavaScript, Jquery, Bootstrap, PHP, Figma, Flexbox, Bitbucket and Github to develop user interfaces that meet business requirements.</p>
+                            <p className="job_desc_list"><i className="bi bi-arrow-right"></i>designing and implementing modern and responsive user interfaces for web applications.</p>
+                            <p className="job_desc_list"><i className="bi bi-arrow-right"></i>Collaborated with UX designers to translate wireframes and prototypes into seamless user experiences.</p>
+                            <p className="job_desc_list"><i className="bi bi-arrow-right"></i>Implemented and maintained front-end code standards and best practices to ensure consistency and scalability across projects.</p>
+                            <p className="job_desc_list"><i className="bi bi-arrow-right"></i>Conducted code reviews and provided constructive feedback to team members, fostering a culture of continuous improvement.</p>
+                            <p className="job_desc_list"><i className="bi bi-arrow-right"></i>Worked closely with back-end developers to integrate front-end components with server-side logic and databases.</p>
+                            <p className="job_desc_list"><i className="bi bi-arrow-right"></i>Utilized HTML, CSS, JavaScript, Jquery, Bootstrap, PHP, Figma, Flexbox, Bitbucket and Github to develop user interfaces that meet business requirements.</p>
                         </div>
                     </div>
                

@@ -28,81 +28,81 @@ const Techstacks = () => {
     return (
         <main>
             
-            <section class="techstack_section">
+            <section className="techstack_section">
 
-                <div class="techstack_container">
-                    <h1 class="title">Tech Stacks</h1>
+                <div className="techstack_container">
+                    <h1 className="title">Tech Stacks</h1>
                     <ul>
                         <li>
-                            <Image src="/assets/images/html.png" width={0} height={0} style={{ width: '100px', height: 'auto' }} sizes={"100vw"} quality={80} alt="HTML" />
+                            <Image src="/assets/images/html.png" width={0} height={0}  sizes={"100vw"} quality={80} alt="HTML" />
                             <h5>HTML</h5>
                         </li>
                         <li>
-                            <Image src="/assets/images/css.png" width={0} height={0} style={{ width: '100px', height: 'auto' }} sizes={"100vw"} quality={80} alt="CSS" />
+                            <Image src="/assets/images/css.png" width={0} height={0}  sizes={"100vw"} quality={80} alt="CSS" />
                             <h5>CSS</h5>
                         </li>
                         <li>
-                            <Image src="/assets/images/scss.png" width={0} height={0} style={{ width: '100px', height: 'auto' }} sizes={"100vw"} quality={80} alt="SCSS" />
+                            <Image src="/assets/images/scss.png" width={0} height={0}  sizes={"100vw"} quality={80} alt="SCSS" />
                             <h5>SCSS</h5>
                         </li>
                         <li>
-                            <Image src="/assets/images/jquery.png" width={0} height={0} style={{ width: '100px', height: 'auto' }} sizes={"100vw"} quality={80} alt="JQuery" />
+                            <Image src="/assets/images/jquery.png" width={0} height={0}  sizes={"100vw"} quality={80} alt="JQuery" />
                             <h5>JQuery</h5>
                         </li>
                         <li>
-                            <Image src="/assets/images/javascript.svg" width={0} height={0} style={{ width: '100px', height: 'auto' }} sizes={"100vw"} quality={80} alt="Javascript" />
+                            <Image src="/assets/images/javascript.svg" width={0} height={0}  sizes={"100vw"} quality={80} alt="Javascript" />
                             <h5>Javascript</h5>
                         </li>
                         <li>
-                            <Image src="/assets/images/react.png" width={0} height={0} style={{ width: '100px', height: 'auto' }} sizes={"100vw"} quality={80} alt="React Js" />
+                            <Image src="/assets/images/react.png" width={0} height={0}  sizes={"100vw"} quality={80} alt="React Js" />
                             <h5>React Js</h5>
                         </li>
                         <li>
-                            <Image src="/assets/images/nextjs.png" width={0} height={0} style={{ width: '100px', height: 'auto' }} sizes={"100vw"} quality={80} alt="Next Js" />
+                            <Image src="/assets/images/nextjs.png" width={0} height={0}  sizes={"100vw"} quality={80} alt="Next Js" />
                             <h5>Next Js</h5>
                         </li>
                         <li>
-                            <Image src="/assets/images/laravel.png" width={0} height={0} style={{ width: '100px', height: 'auto' }} sizes={"100vw"} quality={80} alt="Laravel" />
+                            <Image src="/assets/images/laravel.png" width={0} height={0}  sizes={"100vw"} quality={80} alt="Laravel" />
                             <h5>Laravel</h5>
                         </li>
                         <li>
-                            <Image src="/assets/images/mysql.png" width={0} height={0} style={{ width: '100px', height: 'auto' }} sizes={"100vw"} quality={80} alt="MySql" />
+                            <Image src="/assets/images/mysql.png" width={0} height={0}  sizes={"100vw"} quality={80} alt="MySql" />
                             <h5>MySql</h5>
                         </li>
                         <li>
-                            <Image src="/assets/images/bootstrap.png" width={0} height={0} style={{ width: '100px', height: 'auto' }} sizes={"100vw"} quality={80} alt="Boostrap" />
+                            <Image src="/assets/images/bootstrap.png" width={0} height={0}  sizes={"100vw"} quality={80} alt="Boostrap" />
                             <h5>Boostrap</h5>
                         </li>
                         <li>
-                            <Image src="/assets/images/chakra-ui.png" width={0} height={0} style={{ width: '100px', height: 'auto' }} sizes={"100vw"} quality={80} alt="Chakra UI" />
+                            <Image src="/assets/images/chakra-ui.png" width={0} height={0}  sizes={"100vw"} quality={80} alt="Chakra UI" />
                                 <h5>Chakra UI</h5>
                         </li>
                         <li>
-                            <Image src="/assets/images/tailwind.png" width={0} height={0} style={{ width: '100px', height: 'auto' }} sizes={"100vw"} quality={80} alt="Tailwind CSS" />
+                            <Image src="/assets/images/tailwind.png" width={0} height={0}  sizes={"100vw"} quality={80} alt="Tailwind CSS" />
                             <h5>Tailwind CSS</h5>
                         </li>
                         <li>
-                            <Image src="/assets/images/github.png" width={0} height={0} style={{ width: '100px', height: 'auto' }} sizes={"100vw"} quality={80} alt="Github" />
+                            <Image src="/assets/images/github.png" width={0} height={0}  sizes={"100vw"} quality={80} alt="Github" />
                             <h5>Github</h5>
                         </li>
                         <li>
-                            <Image src="/assets/images/figma.png" width={0} height={0} style={{ width: '100px', height: 'auto' }} sizes={"100vw"} quality={80} alt="Figma" />
+                            <Image src="/assets/images/figma.png" width={0} height={0}  sizes={"100vw"} quality={80} alt="Figma" />
                             <h5>Figma</h5>
                         </li>
                         <li>
-                            <Image src="/assets/images/bitbucket.png" width={0} height={0} style={{ width: '100px', height: 'auto' }} sizes={"100vw"} quality={80} alt="Bitbucket" />
+                            <Image src="/assets/images/bitbucket.png" width={0} height={0}  sizes={"100vw"} quality={80} alt="Bitbucket" />
                             <h5>Bitbucket</h5>
                         </li>
                         <li>
-                            <Image src="/assets/images/vscode.png" width={0} height={0} style={{ width: '100px', height: 'auto' }} sizes={"100vw"} quality={80} alt="VS Code" />
+                            <Image src="/assets/images/vscode.png" width={0} height={0}  sizes={"100vw"} quality={80} alt="VS Code" />
                             <h5>VS Code</h5>
                         </li>
                         <li>
-                            <Image src="/assets/images/greensock.webp" width={0} height={0} style={{ width: '100px', height: 'auto' }} sizes={"100vw"} quality={80} alt="" />
+                            <Image src="/assets/images/greensock.webp" width={0} height={0}  sizes={"100vw"} quality={80} alt="" />
                             <h5>GSAP</h5>
                         </li>
                         <li>
-                            <Image src="/assets/images/seo.svg" width={0} height={0} style={{ width: '100px', height: 'auto' }} sizes={"100vw"} quality={80} alt="SEO" />
+                            <Image src="/assets/images/seo.svg" width={0} height={0}  sizes={"100vw"} quality={80} alt="SEO" />
                             <h5>SEO</h5>
                         </li>
                     </ul>

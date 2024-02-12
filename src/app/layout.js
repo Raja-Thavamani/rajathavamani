@@ -1,10 +1,15 @@
-
+"use client";
 import Head from 'next/head';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import '../../public/assets/css/index.css';
 
 import Header from './components/header';
 import Footer from './components/footer';
+import dynamic from 'next/dynamic';
+
+
+const BallCursor = dynamic(() => import('./components/BallCursor'), { ssr: false });
+
 
 export default function RootLayout({ children }) {
   return (
@@ -16,6 +21,7 @@ export default function RootLayout({ children }) {
       </Head>
       <body>
         <Header />
+        <BallCursor />
         {children}
         <Footer />
       </body>
