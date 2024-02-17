@@ -4,18 +4,22 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 :root {
-    --brand-primary: #555fff;
+    --brand-primary: #ff5555;
+    /* --brand-primary: #ff5500; */
     --brand-secondary: #00C99F;
-    --pageTitleFontSize: 40px;
-    /* --dark: #090020; */
-    --dark: #292D3E;
-    --foreColor: #565454;
+    --pageTitleFontSize: 34px;
+    --dark: #000;
+    --dark-2: #0e0e0e;
+    --foreColor: #fff;
     --desc: 16px;
-    --desc-title: 20px;
+    --desc-title: 18px;
+}
 
+::selection {
+    color: #fff;
+    background: var(--brand-primary);
 }
 
 body {
@@ -23,8 +27,7 @@ body {
     font-family: 'Poppins', sans-serif;
     transition-duration: 350ms;
     font-size: var(--desc);
-    ;
-    background-color: #fafbfc;
+    background-color: #000;
     letter-spacing: normal;
     font-weight: 400;
 }
@@ -36,13 +39,14 @@ body {
     align-items: center;
     height: 70px;
     padding: 0px 20px;
-    background: #fff;
     z-index: 1;
+    background-color: transparent;
+    border-bottom: 1px solid #272727;
 }
 
 .nav_ul {
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 li {
@@ -51,34 +55,34 @@ li {
 
 .logo a {
     font-size: 20px;
-    font-family: 'Mulish', sans-serif;
     letter-spacing: 1px;
-    background: radial-gradient(circle,
-            var(--brand-primary) 0%,
-            var(--brand-secondary) 25%,
-            var(--brand-primary) 50%,
-            var(--brand-secondary) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    max-width: max-content;
+    color: var(--brand-primary);
+    text-decoration: none;
+    font-weight: 600;
+    font-family: "Roboto Condensed";
+}
+
+.sub_logo_text {
+    color: #fff;
 }
 
 .nav_ul a {
     color: var(--foreColor);
-    font-size: var(--desc);
+    font-size: 18px;
     text-decoration: none;
-    font-family: 'Mulish', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
+    transition: all 0.5s ease;
+    font-family: "Roboto Condensed";
 }
 
 .quick_contact a {
     color: var(--brand-primary);
-    font-size: var(--desc);
-    ;
+    font-size: 16px;
     text-decoration: none;
     border: 1px solid var(--brand-primary);
     padding: 8px 16px;
     border-radius: 4px;
+    font-family: "Roboto Condensed";
 }
 
 .quick_contact a:hover {
@@ -91,22 +95,12 @@ li {
     color: #fff;
 }
 
-.nav_ul a.active {
-    background: linear-gradient(to right, var(--brand-primary) 0%, var(--brand-secondary) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.nav_ul a.active,
+.nav_ul a:hover {
+    color: var(--brand-primary);
+    font-weight: 600;
 }
 
-.nav_ul a:hover {
-    background: radial-gradient(circle,
-            var(--brand-primary) 0%,
-            var(--brand-secondary) 25%,
-            var(--brand-primary) 50%,
-            var(--brand-secondary) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    max-width: max-content;
-}
 
 a.contact_btn {
     background: var(--brand-primary);
@@ -115,8 +109,6 @@ a.contact_btn {
     text-decoration: none;
     border-radius: 5px;
     font-size: var(--desc);
-    ;
-    font-family: 'Mulish', sans-serif;
     letter-spacing: 1.2px;
 }
 
@@ -183,12 +175,12 @@ a.contact_btn {
 .hero_content h2 {
     font-size: var(--pageTitleFontSize);
     color: var(--foreColor);
-    font-family: 'Mulish', sans-serif;
     letter-spacing: 1.2px;
     font-weight: 700;
     display: flex;
     flex-direction: column;
     line-height: 1;
+    font-family: "Roboto Condensed";
 }
 
 .hero_content h1 {
@@ -203,6 +195,7 @@ a.contact_btn {
     margin-top: 20px;
     margin-bottom: 20px;
     color: var(--foreColor);
+    width: 75%;
 }
 
 
@@ -216,6 +209,7 @@ a.explore_btn {
     display: flex;
     align-items: center;
     gap: 8px;
+    font-family: "Roboto Condensed";
 }
 
 a.download_btn {
@@ -227,6 +221,7 @@ a.download_btn {
     font-size: var(--desc);
     display: flex;
     gap: 8px;
+    font-family: "Roboto Condensed";
 }
 
 a.download_btn i {
@@ -238,17 +233,14 @@ a.download_btn:hover i {
 }
 
 .typing_animation span {
-    background: linear-gradient(to right, var(--brand-primary) 0%, var(--brand-secondary) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     font-size: 60px;
     display: inline-block;
     opacity: 0.1;
     animation: typing 5s infinite;
-    text-shadow: #5156e9 0px 0px 50px;
-    font-family: 'Mulish', sans-serif;
     letter-spacing: 1.2px;
     font-weight: 700;
+    color: var(--brand-primary);
+    font-family: "Roboto Condensed";
 }
 
 @keyframes typing {
@@ -349,6 +341,10 @@ a.download_btn:hover i {
     animation-delay: 3.6s;
 }
 
+.typing_animation span.text_white {
+    color: #fff;
+}
+
 .hero_btns {
     display: flex;
     gap: 15px;
@@ -359,23 +355,17 @@ a.download_btn:hover i {
     display: inline-flex;
     align-items: center;
     gap: 18px;
-    background: #fff;
+    background: var(--dark-2);
     margin-top: 15px;
     padding: 0px 15px;
     border-radius: 5px;
-    height: 60px;
+    height: 50px;
 }
 
 .social_link_wrap span {
-    background: radial-gradient(circle,
-            var(--brand-primary) 0%,
-            var(--brand-secondary) 25%,
-            var(--brand-primary) 50%,
-            var(--brand-secondary) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    max-width: max-content;
     font-size: var(--desc);
+    color: var(--foreColor);
+    font-family: "Roboto Condensed";
 }
 
 .social_links {
@@ -441,24 +431,18 @@ a.download_btn:hover i {
 }
 
 .about_cnt_wrap .about_title {
-
-    font-size: 40px;
+    font-family: "Roboto Condensed";
+    font-size: var(--pageTitleFontSize);
     margin-bottom: 10px;
-    text-shadow: #5156e9 0px 0px 50px;
-    background: radial-gradient(circle,
-            var(--brand-primary) 0%,
-            var(--brand-secondary) 25%,
-            var(--brand-primary) 50%,
-            var(--brand-secondary) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    max-width: max-content;
-    font-family: 'Mulish', sans-serif;
-    letter-spacing: 1.2px;
+    color: var(--foreColor);
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .about_img_wrap {
     position: relative;
+    height: inherit;
 }
 
 .about_img_wrap img {
@@ -504,19 +488,18 @@ a.download_btn:hover i {
 }
 
 .about_content_block h5 {
-    font-family: 'Mulish', sans-serif;
     letter-spacing: normal;
-    font-size: var(--desc-title);
+    font-size: 20px;
     margin-bottom: 10px;
-    background: radial-gradient(circle,
-            var(--brand-primary) 0%,
-            var(--brand-secondary) 25%,
-            var(--brand-primary) 50%,
-            var(--brand-secondary) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    max-width: max-content;
+    color: var(--brand-primary);
+    font-family: "Roboto Condensed";
 }
+
+.about_content_block.last_item p {
+    display: list-item;
+    margin: 0px 0px 5px 18px;
+}
+
 
 .company_logo {
     max-width: 100%;
@@ -527,61 +510,50 @@ a.download_btn:hover i {
 
 .experience_section {
     height: 100%;
-    margin-top: 70px;
+    margin-top: 40px;
     padding-bottom: 70px;
 }
 
 .experience_section .page_title {
-    font-size: 40px;
-    font-family: 'Mulish', sans-serif;
+    font-size: 34px;
+    font-family: "Roboto Condensed";
     letter-spacing: 2px;
-    margin: 30px 0px 0px 30px;
-    background: radial-gradient(circle,
-            var(--brand-primary) 0%,
-            var(--brand-secondary) 25%,
-            var(--brand-primary) 50%,
-            var(--brand-secondary) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    max-width: max-content;
-    text-shadow: #5156e9 0px 0px 50px;
+    margin: 0px 0px 0px 30px;
+    color: var(--foreColor);
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .experience_container {
     padding: 30px;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     height: 100%;
     place-content: center;
-    gap: 15px;
+    gap: 20px;
 }
 
 .experience_divider {
-    background-color: #fff;
+    background-color: var(--dark-2);
     padding: 15px 30px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     height: max-content;
     border-radius: 10px;
+    border: 1px solid #1e1e1e;
 }
 
 .experience_divider b {
-    font-size: var(--desc);
-    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-family: "Roboto Condensed";
+    font-weight: 500;
 }
 
 .experience_divider .company_name {
-    font-size: var(--desc-title);
-    font-family: 'Mulish', sans-serif;
+    font-family: "Roboto Condensed";
+    font-size: 20px;
     letter-spacing: 1.2px;
     margin-bottom: 10px;
-    background: radial-gradient(circle,
-            rgba(13, 8, 96, 1) 0%,
-            rgba(9, 9, 121, 1) 21%,
-            rgba(6, 84, 170, 1) 51%,
-            rgba(0, 255, 113, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    max-width: max-content;
+    color: var(--brand-primary);
 }
 
 .experience_divider .designation {
@@ -609,10 +581,17 @@ a.download_btn:hover i {
     list-style-type: disc;
     margin-bottom: 8px;
     line-height: 1.5;
+    color: #cfcfcf;
+    display: list-item;
+}
+
+.job_desc_list_wrap {
+    margin-left: 20px;
 }
 
 .experience_divider .job_desc_list i {
     margin-right: 5px;
+    color: var(--brand-primary);
 }
 
 .experience_divider ul {
@@ -622,12 +601,13 @@ a.download_btn:hover i {
 
 .experience_divider span {
     font-style: italic;
+    font-size: 16px;
+    color: #cfcfcf;
 }
 
 .techstack_section {
-    background-color: #fafbfc;
     height: 100%;
-    margin-top: 50px;
+    margin-top: 40px;
     padding-bottom: 70px;
 }
 
@@ -642,22 +622,17 @@ a.download_btn:hover i {
 }
 
 .techstack_container .title {
-    font-size: var(--pageTitleFontSize);
-    font-family: 'Mulish', sans-serif;
-    background: radial-gradient(circle,
-            var(--brand-primary) 0%,
-            var(--brand-secondary) 25%,
-            var(--brand-primary) 50%,
-            var(--brand-secondary) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    max-width: max-content;
-    text-shadow: #5156e9 0px 0px 50px;
+    font-size: 34px;
+    color: var(--foreColor);
+    font-family: "Roboto Condensed";
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .techstack_container ul {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     width: 100%;
     justify-content: space-between;
     row-gap: 30px;
@@ -670,30 +645,23 @@ a.download_btn:hover i {
     justify-content: center;
     align-items: center;
     gap: 15px;
-    background-color: #fff;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: var(--dark-2);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: var(--brand-primary) 1px 1px 5px;
+    border: 1px solid #272727;
 }
+
 
 .techstack_container li h5 {
     font-size: 20px;
-    font-family: 'Mulish', sans-serif;
     font-weight: 400;
-    background: radial-gradient(circle,
-            var(--brand-primary) 0%,
-            var(--brand-secondary) 25%,
-            var(--brand-primary) 50%,
-            var(--brand-secondary) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    max-width: max-content;
+    color: var(--foreColor);
+    font-family: "Roboto Condensed";
 }
 
 .techstack_container li img {
     max-width: 100%;
-    width: 90px;
+    width: 60px;
     height: auto;
 }
 
@@ -702,7 +670,8 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: var(--dark);
+    border-top: 1px solid #272727;
+    background-color: #000;
 }
 
 .footer_container {
@@ -725,6 +694,7 @@ footer {
     font-size: 15px;
     margin: 0;
     line-height: 1.5;
+    font-family: "Roboto Condensed";
 }
 
 .foo_social_links {
@@ -755,37 +725,33 @@ footer {
 
 .contact_container {
     display: grid;
-    grid-template-columns: 30% 50%;
+    grid-template-columns: 35% 40%;
     width: 100%;
     justify-content: space-around;
     align-items: center;
 }
 
 .contact_content_sec {
-    background-color: #fff;
-    padding: 50px 30px 50px 30px;
+    background-color: var(--dark-2);
+    padding: 40px 30px 40px 30px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 30px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
+    border: 1px solid #1e1e1e;
 }
 
 
 .contact_content_sec h1 {
+    font-family: "Roboto Condensed";
     font-size: var(--pageTitleFontSize);
-    font-family: 'Mulish', sans-serif;
     width: fit-content;
     margin: 0;
-    background: radial-gradient(circle,
-            var(--brand-primary) 0%,
-            var(--brand-secondary) 25%,
-            var(--brand-primary) 50%,
-            var(--brand-secondary) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    max-width: max-content;
-    text-shadow: #5156e9 0px 0px 50px;
+    color: var(--foreColor);
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .contact_content_sec a.contact_items {
@@ -795,24 +761,18 @@ footer {
     padding: 20px;
     border-radius: 5px;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-    border-left: 4px solid #e3e3e3;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     text-decoration: none;
     transition: 0.5s;
 }
 
-.contact_content_sec a.contact_items:hover {
-    border-left: 4px solid var(--brand-primary);
+.contact_items:hover .contact_social_icons i {
+    color: #fff
 }
 
-.contact_content_sec a.contact_items:hover i {
+.contact_items:hover .contact_social_icons {
     background-color: var(--brand-primary);
-    color: #fff;
-}
-
-.contact_content_sec a.contact_items:hover .title {
-    color: var(--brand-primary);
 }
 
 .contact_social_text {
@@ -822,10 +782,10 @@ footer {
 }
 
 .contact_items .contact_social_text .title {
-    color: var(--foreColor);
+    color: var(--brand-primary);
     font-size: var(--desc);
     font-weight: 600;
-    font-family: 'Mulish', sans-serif;
+    font-family: "Roboto Condensed";
 }
 
 .contact_items .contact_social_text .scl_sub_text {
@@ -834,15 +794,27 @@ footer {
     font-weight: 400;
 }
 
-.contact_content_sec i {
-    padding: 12px;
-    background-color: #F0F0F0;
+.contact_social_icons {
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--brand-primary);
+    background-color: #fff;
     border-radius: 50%;
-    font-size: 20px;
-    font-weight: 600;
-    color: var(--foreColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+
+.contact_content_sec i {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--brand-primary);
+}
+
+.contact_content_sec i:hover {
+    color: #fff;
+}
 
 .contact_section {
     height: 100%;
@@ -861,7 +833,7 @@ footer {
 }
 
 .enquiry_form_container {
-    flex: 1;
+    width: 45%;
 }
 
 .enquiry_form_container iframe {
@@ -871,8 +843,12 @@ footer {
     width: 100%;
     height: 100%;
     padding-bottom: 150px;
-    min-height: 500px;
+    min-height: 600px;
     overflow: hidden;
+}
+
+.enquiry_form_container iframe body{
+    overflow: hidden !important;
 }
 
 .enquiry_form_container iframe .RVEQke {
@@ -880,10 +856,18 @@ footer {
 }
 
 .enquiry_form_container h1 {
+    font-family: "Roboto Condensed";
     font-size: var(--pageTitleFontSize);
     margin-bottom: 40px;
     text-align: center;
-    color: var(--dark);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.enquiry_img_sec{
+    width: 45%;
 }
 
 .enquiry_img_sec img {
@@ -898,6 +882,14 @@ footer {
 
 .curriculumvitae_container embed {
     height: 100vh;
+}
+
+.title_icon {
+    color: var(--brand-primary);
+}
+
+.title_icon.right {
+    transform: rotate(180deg);
 }
 
 .hamburger_menu {

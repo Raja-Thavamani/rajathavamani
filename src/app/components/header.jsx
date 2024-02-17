@@ -21,7 +21,7 @@ const Header = () => {
                     <img src="/assets/images/hamburger-menu-white.svg" alt="hamburger-menu.svg" />
                 </div>
                 <Sidebar open={sidebarOpen} onClose={toggleSidebar} />
-                <a href="/" className={ pathname === "/" ? "active" : ""}>Raja <span>Thavamani</span></a>
+                <a href="/" className={ pathname === "/" ? "active" : ""}>Raja <span className='sub_logo_text'>Thavamani</span></a>
             </div>
 
             <div className="nav_ul">

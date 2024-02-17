@@ -1,5 +1,7 @@
+
 import React from "react";
 import Image from 'next/image';
+import ConfettiComponent from '../components/Confetti';
 
 export const metadata = {
 
@@ -27,11 +29,11 @@ const Techstacks = () => {
     
     return (
         <main>
-            
+            <ConfettiComponent />
             <section className="techstack_section">
 
                 <div className="techstack_container">
-                    <h1 className="title">Tech Stacks</h1>
+                    <h1 className="title"><i class="bi bi-heart-arrow title_icon"></i>Tech Stacks<i class="bi bi-heart-arrow title_icon right"></i></h1>
                     <ul>
                         <li>
                             <Image src="/assets/images/html.png" width={0} height={0}  sizes={"100vw"} quality={80} alt="HTML" />

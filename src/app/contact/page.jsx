@@ -1,6 +1,6 @@
 import React from "react";
 import Image from 'next/image';
-
+import ConfettiComponent from '../components/Confetti';
 
 export const metadata = {
   title: 'Contact | Raja Thavamani',
@@ -26,12 +26,13 @@ export const metadata = {
 const Contact = () => {
 
     return (
-        <main>
+      <main>
+        <ConfettiComponent />
             <section className="contact_section">
                 <div className="contact_container">
                     <div className="contact_content_sec">
               
-                          <h1>Contacts</h1>
+                          <h1><i class="bi bi-heart-arrow title_icon"></i>Contacts<i class="bi bi-heart-arrow title_icon right"></i></h1>
               
                           <a href="tel:9655005530" target="_blank" className="contact_items">
                             <div className="contact_social_icons"><i className="bi bi-telephone"></i></div>

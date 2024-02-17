@@ -1,5 +1,5 @@
 import React from "react";
-
+import ConfettiComponent from '../components/Confetti';
 
 
 export const metadata = {
@@ -26,7 +26,8 @@ export const metadata = {
 const CurriculumVitae = () => {
     
     return (
-        <main>
+      <main>
+        <ConfettiComponent />
             <section className="curriculumvitae_section">
                 <div className="curriculumvitae_container">
                     <embed src="/assets/pdf/rajathavamani-front-end-developer-cv.pdf" type="application/pdf" width="100%" height="100%" />
