@@ -848,7 +848,7 @@ footer {
     overflow: hidden;
 }
 
-.enquiry_form_container iframe body{
+.enquiry_form_container iframe body {
     overflow: hidden !important;
 }
 
@@ -867,7 +867,7 @@ footer {
     gap: 10px;
 }
 
-.enquiry_img_sec{
+.enquiry_img_sec {
     width: 45%;
 }
 
@@ -987,6 +987,7 @@ footer {
         transform: rotate(360deg);
     }
 }
+
 /* PreLoader css end */
 
 @media only screen and (max-width: 1440px) {
@@ -1146,11 +1147,15 @@ footer {
     }
 
     .hero_container {
-        padding: 0 20px;
+        padding: 30px 20px;
     }
 
     .hero_content p {
         font-size: 15px;
+    }
+
+    footer {
+        position: relative;
     }
 
     .foo_social_links {
