@@ -1154,6 +1154,67 @@ footer {
         font-size: 15px;
     }
 
+    .about_container {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 30px 20px;
+    }
+
+    .experience_section {
+        padding-bottom: 20px;
+
+    }
+
+    .experience_container {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 20px 10px;
+    }
+
+    .techstack_section {
+        margin-top: 0;
+        padding-bottom: 20px;
+    }
+
+    .techstack_container {
+        padding: 30px 20px;
+    }
+
+    .techstack_container ul {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .contact_container {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: space-between;
+    }
+
+    .contact_content_sec {
+        order: 2;
+        padding: 30px 10px 10px 10px;
+    }
+
+    .contact_content_sec a.contact_items {
+        padding: 10px;
+    }
+
+    .contact_items .contact_social_text .scl_sub_text {
+        font-size: 12px;
+    }
+
+    .contact_section {
+        margin-top: 10px;
+        padding-bottom: 30px;
+    }
+
+    .contact_img_sec {
+        padding: 0px 40px;
+    }
+
+        .enquiry_container{
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
     footer {
         position: relative;
     }
