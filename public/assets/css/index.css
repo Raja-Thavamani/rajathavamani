@@ -903,9 +903,7 @@ footer {
     position: fixed;
     top: 0;
     left: -300px;
-    background: #ECE9E6;
-    background: -webkit-linear-gradient(to left, #FFFFFF, #ECE9E6);
-    background: linear-gradient(to left, #FFFFFF, #ECE9E6);
+    background: linear-gradient(to left, #d5fff1, #ffe7e7);
     transition: left 0.3s ease;
     z-index: 2;
     display: flex;
@@ -956,7 +954,6 @@ footer {
     color: var(--brand-primary) !important;
     -webkit-text-fill-color: var(--brand-primary);
 }
-
 
 /* PreLoader css begin */
 .preloader {
@@ -1031,11 +1028,15 @@ footer {
 
     .hero_container {
         grid-template-columns: repeat(1, 1fr);
+        height: auto;
+        padding: 30px 20px;
+        grid-row-gap: 25px;
     }
 
     .hero_content {
         text-align: center;
         order: 2;
+        padding-bottom: 100px;
     }
 
     .hero_btns {
@@ -1103,6 +1104,16 @@ footer {
         width: 30px;
         height: 30px;
     }
+
+    .sidebar.open html>body {
+        overflow: hidden;
+        height: 100%;
+        position: fixed;
+        width: 100%;
+    }
+
+
+
 }
 
 @media only screen and (max-width: 800px) {
