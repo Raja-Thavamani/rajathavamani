@@ -903,7 +903,9 @@ footer {
     position: fixed;
     top: 0;
     left: -300px;
-    background-color: #fff;
+    background: #ECE9E6;
+    background: -webkit-linear-gradient(to left, #FFFFFF, #ECE9E6);
+    background: linear-gradient(to left, #FFFFFF, #ECE9E6);
     transition: left 0.3s ease;
     z-index: 2;
     display: flex;
@@ -923,7 +925,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #555fff;
+    background: var(--brand-primary);
     border-radius: 50%;
     margin-left: auto;
 }
@@ -1142,6 +1144,7 @@ footer {
 
 
 @media only screen and (max-width: 576px) {
+
     .hero_img img {
         width: 300px !important;
     }
@@ -1154,14 +1157,83 @@ footer {
         font-size: 15px;
     }
 
+    .hero_img .shape_d {
+        transform: translate(35%, 15%);
+    }
+
+    .hero_img .shape_a {
+
+        top: 15%;
+        left: -10%;
+    }
+
+    .hamburger_menu {
+        width: 42px;
+        height: 42px;
+    }
+
+    .navbar {
+        padding: 0px 10px;
+    }
+
+    .quick_contact a {
+        font-size: 15px;
+        padding: 6px 15px;
+    }
+
+    a.download_btn {
+        font-size: 15px;
+    }
+
+    a.explore_btn {
+        font-size: 15px;
+    }
+
+    .social_link_wrap span {
+        font-size: 15px;
+    }
+
+    .social_links {
+        gap: 15px;
+    }
+
     .about_container {
         grid-template-columns: repeat(1, 1fr);
         padding: 30px 20px;
+        gap: 20px;
+    }
+
+    .about_content_block h5 {
+        font-size: 18px;
+    }
+
+    .about_cnt_wrap p {
+        font-size: 15px;
+    }
+
+    .about_img_wrap .shape_a {
+        font-size: 30px;
+    }
+
+    .about_img_wrap .shape_c {
+        font-size: 30px;
+    }
+
+    .about_img_wrap .shape_d {
+        font-size: 30px;
+    }
+
+    .about_cnt_wrap .about_title {
+        font-size: 25px;
     }
 
     .experience_section {
         padding-bottom: 20px;
+        margin-top: 30px;
+    }
 
+    .experience_section .page_title {
+        font-size: 26px;
     }
 
     .experience_container {
@@ -1169,13 +1241,45 @@ footer {
         padding: 20px 10px;
     }
 
+    .experience_divider {
+        padding: 15px;
+    }
+
     .techstack_section {
         margin-top: 0;
         padding-bottom: 20px;
     }
 
+    .techstack_container .title {
+        font-size: 25px;
+    }
+
+    .experience_divider .company_name {
+        font-size: 18px;
+    }
+
+    .experience_divider b {
+        font-size: 15px;
+    }
+
+    .experience_divider span {
+        font-size: 15px;
+    }
+
+    .experience_divider .job_desc_list {
+        font-size: 15px;
+    }
+
     .techstack_container {
         padding: 30px 20px;
+    }
+
+    .techstack_container li h5 {
+        font-size: 15px;
+    }
+
+    .techstack_container li img {
+        width: 50px;
     }
 
     .techstack_container ul {
@@ -1201,6 +1305,10 @@ footer {
         font-size: 12px;
     }
 
+    .contact_content_sec h1 {
+        font-size: 25px;
+    }
+
     .contact_section {
         margin-top: 10px;
         padding-bottom: 30px;
@@ -1210,13 +1318,37 @@ footer {
         padding: 0px 40px;
     }
 
-        .enquiry_container{
-            flex-direction: column;
-            justify-content: space-between;
-        }
+    .enquiry_container {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .enquiry_form_container h1 {
+        font-size: 25px;
+    }
+
+    .enquiry_img_sec {
+        width: 100%;
+    }
+
+    .enquiry_form_container {
+        width: 100%;
+    }
+
+    .enquiry_section {
+        margin-top: 45px;
+    }
+
+    .enquiry_form_container iframe {
+        padding-bottom: 20px;
+    }
 
     footer {
         position: relative;
+    }
+
+    .footer_container {
+        width: auto;
     }
 
     .foo_social_links {
