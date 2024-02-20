@@ -40,7 +40,7 @@ return (
                     <Image src="/assets/images/about.svg" width={100} height={100} style={{ width: '100%', height: '100%' }} sizes={"100vw"} quality={80} alt="rajathavamani" />
                 </div>
                 <div className="about_cnt_wrap">
-                    <h1 className="about_title"><i class="bi bi-heart-arrow title_icon"></i>Get to know about me!<i class="bi bi-heart-arrow title_icon right"></i></h1>
+                    <h1 className="about_title"><i className="bi bi-heart-arrow title_icon"></i>Get to know about me!<i className="bi bi-heart-arrow title_icon right"></i></h1>
                     <div className="about_content_block">
                         <h5>Bringing Ideas to Life through Code</h5>
                         <p>Hello there! I&apos;m Raja Thavamani, a passionate frontend developer with a keen eye for design and a love for transforming ideas into interactive and visually stunning digital experiences.</p>

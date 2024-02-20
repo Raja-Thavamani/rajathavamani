@@ -34,7 +34,7 @@ const Enquiry = () => {
                         <Image src="/assets/images/enquiry.svg" width={0} height={0} quality={80} alt="" />
                     </div>
                     <div className="enquiry_form_container">
-                        <h1><i class="bi bi-heart-arrow title_icon"></i>I would love to hear from you!<i class="bi bi-heart-arrow title_icon right"></i></h1>
+                        <h1><i className="bi bi-heart-arrow title_icon"></i>I would love to hear from you!<i className="bi bi-heart-arrow title_icon right"></i></h1>
                         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeE0fa0fMoakWUIoFNz8ej-A-Kmcrm4IEZvU--laUL9GKXCcA/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                     </div>
                 </div>  

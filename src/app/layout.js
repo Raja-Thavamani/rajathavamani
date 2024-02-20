@@ -30,36 +30,34 @@ export default function RootLayout({children }) {
 
 
   return (
-
     <html lang="en">
       <Head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        
       </Head>
       <body>
         <>
           {loading ? (
             <PreLoader />
           ) : (
-              <>
-                <AnimatedCursor
-                  innerSize={15}
-                  outerSize={50}
-                  color='255, 85, 85'
-                  outerAlpha={0.4}
-                  innerScale={0.7}
-                  outerScale={2}
-                />
-                <Header />
-                {children}
-                <Footer />
-              </> 
-        )}
+            <>
+              <AnimatedCursor
+                innerSize={15}
+                outerSize={50}
+                color='255, 85, 85'
+                outerAlpha={0.4}
+                innerScale={0.7}
+                outerScale={2}
+              />
+              <Header />
+              {children}
+              <Footer />
+            </>
+          )}
         </>
        
         
       </body>
     </html>
-  )
+  );
 }

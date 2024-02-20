@@ -61,10 +61,10 @@ export default function Home() {
             <div className="social_link_wrap">
               <span>Follow me on :</span>
               <div className="social_links">
-                <a href="#"><i className="bi bi-facebook"></i></a>
-                <a href="#"><i className="bi bi-twitter-x"></i></a>
-                <a href="#"><i className="bi bi-linkedin"></i></a>
-                <a href="#"><i className="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-code-square"></i></a>
+                <a href="#"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/rajathavamani-tech" target='_blank'><i className="bi bi-linkedin"></i></a>
+                <a href="https://www.instagram.com/rajathavamanii" target='_blank'><i className="bi bi-instagram"></i></a>
               </div>
             </div>
           </div>
