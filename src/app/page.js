@@ -3,14 +3,14 @@ import Image from 'next/image';
 import ConfettiComponent from './components/Confetti';
 
 export const metadata = {
-  title: 'Home | Raja Thavamani - Senior Frontend Developer Portfolio',
+  title: 'Home | Raja Thavamani - Senior Frontend Developer Portfolio App',
   description: 'Home: Hey! I am Raja Thavamani, a senior front-end developer, UI developer, and UI engineer with 7+ years of hands-on experience in front-end development.',
   keywords: 'Frontend Developer, UI Developer, Website Designer, UI Engineer, Html Developer Frontend Developer Portfolio Website, NextJs Portfolio, React Js Portfolio, Raja Thavamani LinkedIn, Raja Thavamani Facebook, Raja Thavamani Instagram, Raja Thavamani Twitter,',
   openGraph: {
-    title: 'Home | Raja Thavamani - Senior Frontend Developer Portfolio',
+    title: 'Home | Raja Thavamani - Senior Frontend Developer Portfolio App',
     description: 'Home: Hey! I am Raja Thavamani, a senior front-end developer, UI developer, and UI engineer with 7+ years of hands-on experience in front-end development.',
     url: 'https://rajathavamani.vercel.app/',
-    siteName: 'Home | Raja Thavamani - Senior Frontend Developer Portfolio',
+    siteName: 'Home | Raja Thavamani - Senior Frontend Developer Portfolio App',
     images: [
       {
         url: 'https://rajathavamani.vercel.app/assets/images/rajathavamani.jpg',
@@ -53,7 +53,7 @@ export default function Home() {
               <span className='text_white'>e</span>
               <span className='text_white'>r</span>
             </div>
-            <p>Hey! I am Raja Thavamani, a senior front-end developer, UI developer, and UI engineer with 7+ years of hands-on experience in front-end development.</p>
+            <p>Hey! I am Raja Thavamani, a senior front-end developer, UI developer, and UI engineer with 8+ years of hands-on experience in front-end development.</p>
             <div className="hero_btns">
               <a href="/about" type="button" className="explore_btn">Explore <i className="bi bi-arrow-right"></i></a>
               <a href="/assets/pdf/rajathavamani-front-end-developer-cv.pdf" target='_blank' download="rajathavamani-front-end-developer-cv.pdf" type="button" className="download_btn">Download CV<i className="bi bi-download"></i></a>
