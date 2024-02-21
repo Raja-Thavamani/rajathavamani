@@ -14,7 +14,7 @@ export const metadata = {
     siteName: 'Portfolio',
     images: [
       {
-        url: 'https://rajathavamani.vercel.app/assets/images/rajathavamani.jpg',
+        url: 'https://rajathavamani.vercel.app/assets/images/og/rajathavamani-portfolio-techstacks.png',
         width: 800,
         height: 600,
       },
