@@ -356,7 +356,7 @@ a.download_btn:hover i {
     display: inline-flex;
     align-items: center;
     gap: 18px;
-    background: var(--dark-2);
+    border: 1px solid #272727;
     margin-top: 15px;
     padding: 0px 15px;
     border-radius: 5px;
@@ -381,15 +381,11 @@ a.download_btn:hover i {
 }
 
 .social_links i:hover {
-    color: var(--brand-primary);
+    color: var(--brand-secondary);
 }
 
 .social_links a {
     transition: all 0.5s ease;
-}
-
-.social_links a:hover {
-    transform: scale(1.1);
 }
 
 .section_title {
@@ -541,6 +537,16 @@ a.download_btn:hover i {
     height: max-content;
     border-radius: 10px;
     border: 1px solid #1e1e1e;
+    position: relative;
+}
+
+.experience_divider i.circle {
+    position: absolute;
+    right: 2%;
+    top: 1%;
+    font-size: 24px;
+    color: var(--brand-primary);
+    opacity: 0.7;
 }
 
 .experience_divider b {
@@ -566,12 +572,13 @@ a.download_btn:hover i {
     color: #cfcfcf;
     gap: 5px;
 }
+
 .experience_divider .company_name a:hover {
     color: var(--brand-secondary);
 }
 
 
-.experience_divider .company_name i{
+.experience_divider .company_name i {
     color: #fff;
 }
 
@@ -649,7 +656,7 @@ a.download_btn:hover i {
     gap: 10px;
 }
 
-.techstack_container ul {
+.techstack_container .techstack_box_wrap {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     width: 100%;
@@ -658,20 +665,20 @@ a.download_btn:hover i {
     column-gap: 20px;
 }
 
-.techstack_container li {
+.techstack_container a {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 15px;
-    background-color: var(--dark-2);
     padding: 20px;
     border-radius: 10px;
     border: 1px solid #272727;
+    text-decoration: none;
+    transition: all .2s linear;
 }
 
-
-.techstack_container li h5 {
+.techstack_container a h5 {
     font-size: 20px;
     font-weight: 400;
     color: var(--foreColor);
@@ -679,7 +686,15 @@ a.download_btn:hover i {
     text-align: center;
 }
 
-.techstack_container li img {
+.techstack_container a:hover img {
+    transform: scale(1.1)
+}
+
+.techstack_container a:hover h5 {
+    color: var(--brand-primary);
+}
+
+.techstack_container a img {
     max-width: 100%;
     width: 60px;
     height: auto;
@@ -744,47 +759,53 @@ footer {
 }
 
 .contact_container {
-    display: grid;
-    grid-template-columns: 35% 40%;
-    width: 100%;
-    justify-content: space-around;
+    display: flex;
+    width: auto;
     align-items: center;
+    padding: 0px 30px;
 }
 
 .contact_content_sec {
     background-color: var(--dark-2);
-    padding: 40px 30px 40px 30px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 30px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
     border: 1px solid #1e1e1e;
+    flex: 1;
 }
 
 
-.contact_content_sec h1 {
+.contact_section h1 {
     font-family: "Roboto Condensed";
     font-size: var(--pageTitleFontSize);
     width: fit-content;
-    margin: 0;
     color: var(--foreColor);
     display: flex;
     align-items: center;
     gap: 10px;
+    margin: 0 auto;
 }
 
 .contact_content_sec a.contact_items {
     display: flex;
     align-items: center;
     gap: 15px;
-    padding: 20px;
+    padding: 15px 10px 15px 20px;
     border-radius: 5px;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     text-decoration: none;
     transition: 0.5s;
+}
+
+.contact_content_sec a.contact_items:hover {
+    background-color: #000;
+}
+
+.contact_content_sec a.contact_items:hover .scl_sub_text {
+    color: var(--brand-secondary);
 }
 
 .contact_items:hover .contact_social_icons i {
@@ -838,7 +859,20 @@ footer {
 
 .contact_section {
     height: 100%;
-    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.contact_img_sec {
+    padding: 30px;
+    flex: 1;
+}
+
+.contact_img_sec img {
+    max-height: 600px;
+    max-width: 100%;
 }
 
 .enquiry_section {
@@ -1029,16 +1063,30 @@ footer {
         font-size: 40px;
     }
 
-    .techstack_container li {
+    .techstack_container a {
         padding: 15px 30px;
     }
 
-    .techstack_container li img {
+    .techstack_container a img {
         width: 80px;
     }
 
-    .techstack_container li h5 {
+    .techstack_container a h5 {
         font-size: 18px;
+    }
+
+    .contact_container {
+        place-content: space-between;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .contact_content_sec a.contact_items {
+        padding: 10px 10px 10px 20px;
+    }
+
+    .contact_container {
+        margin-top: 20px;
     }
 }
 
@@ -1079,7 +1127,7 @@ footer {
         margin: 15px auto 15px auto;
     }
 
-    .techstack_container ul {
+    .techstack_container .techstack_box_wrap {
         grid-template-columns: repeat(4, 1fr);
     }
 
@@ -1130,9 +1178,33 @@ footer {
         width: 100%;
     }
 
+    .contact_container {
+        margin-top: 0px;
+        flex-direction: column;
+    }
 
+    .contact_content_sec {
+        order: 2;
+    }
 
+    .contact_img_sec {
+        width: 100%;
+        padding: 0;
+    }
+
+    .contact_section {
+        margin-bottom: 100px;
+    }
+
+    .experience_divider {
+        padding: 15px;
+    }
+
+    .experience_container {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
+
 
 @media only screen and (max-width: 800px) {
     .footer_container {
@@ -1146,11 +1218,11 @@ footer {
 }
 
 @media only screen and (max-width: 767px) {
-    .techstack_container li img {
+    .techstack_container a img {
         width: 60px;
     }
 
-    .techstack_container ul {
+    .techstack_container .techstack_box_wrap {
         grid-template-columns: repeat(3, 1fr);
     }
 
@@ -1169,6 +1241,7 @@ footer {
     .hero_container {
         padding: 0 30px;
     }
+
 }
 
 
@@ -1303,15 +1376,15 @@ footer {
         padding: 30px 20px;
     }
 
-    .techstack_container li h5 {
+    .techstack_container a h5 {
         font-size: 15px;
     }
 
-    .techstack_container li img {
+    .techstack_container a img {
         width: 50px;
     }
 
-    .techstack_container ul {
+    .techstack_container .techstack_box_wrap {
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }

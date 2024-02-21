@@ -42,12 +42,12 @@ export default function RootLayout({children }) {
           ) : (
             <>
               <AnimatedCursor
-                innerSize={15}
+                innerSize={10}
                 outerSize={50}
                 color='255, 85, 85'
                 outerAlpha={0.4}
-                innerScale={0.7}
-                outerScale={2}
+                innerScale={1.1}
+                outerScale={1.7}
               />
               <Header />
               {children}

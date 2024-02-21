@@ -11,20 +11,20 @@ const Footer = () => {
                 </div>
                 
                 <div className="foo_social_links">
-                    <a href="#">
-                        <i className="bi bi-facebook"></i>
+                    <a href="https://api.whatsapp.com/send?phone=919655005530&text=Hi%20Raja%20Thavamani,%20I%20am%20interested!" target='_blank'>
+                        <i className="bi bi-whatsapp"></i>
                     </a>
-                    <a href="#">
-                        <i className="bi bi-twitter"></i>
-                    </a>
-                    <a href="#">
+                    <a href="https://www.instagram.com/rajathavamanii" target='_blank'>
                         <i className="bi bi-instagram"></i>
                     </a>
-                    <a href="#">
+                    <a href="https://in.linkedin.com/in/rajathavamani-tech">
                         <i className="bi bi-linkedin"></i>
                     </a>
-                    <a href="#">
-                        <i className="bi bi-whatsapp"></i>
+                    <a href="https://github.com/Raja-Thavamani" target='_blank'>
+                        <i className="bi bi-github"></i>
+                    </a>
+                    <a href="https://codepen.io/rajathavamani">
+                        <i className="bi bi-code-square"></i>
                     </a>
                 </div>
             </div>
