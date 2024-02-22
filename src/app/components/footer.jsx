@@ -11,7 +11,7 @@ const Footer = () => {
                 </div>
                 
                 <div className="foo_social_links">
-                    <a href="https://api.whatsapp.com/send?phone=919655005530&text=Hi%20Raja%20Thavamani,%20I%20am%20interested!" target='_blank'>
+                    <a href="https://api.whatsapp.com/send?phone=919655005530&text=Hi%20Raja%20Thavamani,%20I%20am%20interested!%20in%20your%20portfolio%20app,%20and%20I%20want%20to%20learn%20more%20about%20you.!" target='_blank'>
                         <i className="bi bi-whatsapp"></i>
                     </a>
                     <a href="https://www.instagram.com/rajathavamanii" target='_blank'>
