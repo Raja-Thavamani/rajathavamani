@@ -27,7 +27,7 @@ export default function Home() {
   return (
 
     <main>
-      <ConfettiComponent /> 
+      <ConfettiComponent />
       <section className="hero_section">
         <div className="hero_container">
           <div className="hero_content">
@@ -61,14 +61,14 @@ export default function Home() {
             <div className="social_link_wrap">
               <span>Follow me on :</span>
               <div className="social_links">
-                <a href="https://api.whatsapp.com/send?phone=919655005530&text=Hi%20Raja%20Thavamani,%20I%20am%20interested!" target='_blank'><i class="bi bi-whatsapp"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=919655005530&text=Hi%20Raja%20Thavamani,%20I%20am%20interested!%20in%20your%20portfolio%20app,%20and%20I%20want%20to%20learn%20more%20about%20you.!" target='_blank'><i class="bi bi-whatsapp"></i></a>
                 <a href="https://www.instagram.com/rajathavamanii" target='_blank'><i className="bi bi-instagram"></i></a>
                 <a href="https://www.linkedin.com/in/rajathavamani-tech" target='_blank'><i className="bi bi-linkedin"></i></a>
                 <a href="https://github.com/Raja-Thavamani" target='_blank'><i class="bi bi-github"></i></a>
                 <a href="https://codepen.io/rajathavamani" target='_blank'><i class="bi bi-code-square"></i></a>
-                
-                
-                
+
+
+
               </div>
             </div>
           </div>
