@@ -34,9 +34,8 @@ const Experience = () => {
           <i className='bi bi-heart-arrow title_icon right'></i>
         </h1>
         <div className='experience_container'>
-          <div className='experience_divider'>
-            <i className='bi bi-5-circle circle'></i>
-            <div className='company_logo_wrap'>
+          <a className='experience_divider' href='https://theswipewire.com/' target='_blank'>
+            <i className='bi bi-heart-fill circle'></i>
               <Image
                 src='/assets/images/company-logo.png'
                 className='company_logo'
@@ -47,13 +46,8 @@ const Experience = () => {
                 quality={80}
                 alt='Swipewire Technologies'
               />
-            </div>
-
             <h4 className='company_name'>
               Swipewire Technologies
-              <a href='https://theswipewire.com/' target='_blank'>
-                <i className='bi bi-heart-arrow'></i>Explore
-              </a>
             </h4>
             <p className='designation'>
               <b>Designation :</b>
@@ -96,9 +90,9 @@ const Experience = () => {
                 develop user interfaces that meet business requirements.
               </p>
             </div>
-          </div>
-          <div className='experience_divider'>
-            <i className='bi bi-4-circle circle'></i>
+          </a>
+          <a className='experience_divider' href='https://www.clarisco.com/' target='_blank'>
+            <i className='bi bi-heart-fill circle'></i>
             <Image
               src='/assets/images/company-logo.png'
               className='company_logo'
@@ -111,9 +105,6 @@ const Experience = () => {
             />
             <h4 className='company_name'>
               Clarisco Solutions
-              <a href='https://www.clarisco.com/' target='_blank'>
-                <i className='bi bi-heart-arrow'></i>Explore
-              </a>
             </h4>
             <p className='designation'>
               <b>Designation :</b>
@@ -156,9 +147,10 @@ const Experience = () => {
                 develop user interfaces that meet business requirements.
               </p>
             </div>
-          </div>
-          <div className='experience_divider'>
-            <i className='bi bi-3-circle circle'></i>
+          </a>
+
+          <a className='experience_divider' href='https://www.storydigital.in/' target='_blank'>
+            <i className='bi bi-heart-fill circle'></i>
             <Image
               src='/assets/images/company-logo.png'
               className='company_logo'
@@ -171,9 +163,6 @@ const Experience = () => {
             />
             <h4 className='company_name'>
               Story Digital
-              <a href='https://www.storydigital.in/' target='_blank'>
-                <i className='bi bi-heart-arrow'></i>Explore
-              </a>
             </h4>
             <p className='designation'>
               <b>Designation :</b>
@@ -216,9 +205,10 @@ const Experience = () => {
                 develop user interfaces that meet business requirements.
               </p>
             </div>
-          </div>
-          <div className='experience_divider'>
-            <i className='bi bi-2-circle circle'></i>
+            
+          </a>
+          <a className='experience_divider' href='https://winzonesoftech.com/' target='_blank'>
+            <i className='bi bi-heart-fill circle'></i>
             <Image
               src='/assets/images/company-logo.png'
               className='company_logo'
@@ -231,9 +221,6 @@ const Experience = () => {
             />
             <h4 className='company_name'>
               Winzone Softech
-              <a href='https://winzonesoftech.com/' target='_blank'>
-                <i className='bi bi-heart-arrow'></i>Explore
-              </a>
             </h4>
             <p className='designation'>
               <b>Designation :</b>
@@ -276,10 +263,9 @@ const Experience = () => {
                 meet business requirements.
               </p>
             </div>
-          </div>
-
-          <div className='experience_divider'>
-            <i className='bi bi-1-circle circle'></i>
+          </a>
+          <a className='experience_divider' href='http://www.playnlivengo.org/' target='_blank'>
+            <i className='bi bi-heart-fill circle'></i>
             <Image
               src='/assets/images/company-logo.png'
               className='company_logo'
@@ -292,9 +278,6 @@ const Experience = () => {
             />
             <h4 className='company_name'>
               PlayNlive
-              <a href='http://www.playnlivengo.org/' target='_blank'>
-                <i className='bi bi-heart-arrow'></i>Explore
-              </a>
             </h4>
             <p className='designation'>
               <b>Designation :</b>
@@ -337,7 +320,7 @@ const Experience = () => {
                 meet business requirements.
               </p>
             </div>
-          </div>
+          </a>
         </div>
       </section>
     </main>

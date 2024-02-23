@@ -35,7 +35,7 @@ export default function RootLayout({children }) {
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
-      <body>
+      <body suppressHydrationWarning={true}>
         <>
           {loading ? (
             <PreLoader />
@@ -43,7 +43,7 @@ export default function RootLayout({children }) {
             <>
               <AnimatedCursor
                 innerSize={10}
-                outerSize={50}
+                outerSize={40}
                 color='255, 85, 85'
                 outerAlpha={0.4}
                 innerScale={1.1}

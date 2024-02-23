@@ -38,7 +38,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 70px;
+    height: 80px;
     padding: 0px 20px;
     z-index: 1;
     background-color: transparent;
@@ -127,6 +127,15 @@ a.contact_btn {
     width: 100%;
     height: 100%;
     border-radius: 50%;
+    transition: all 0.5s ease;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    /* filter: drop-shadow(8px 8px 10px var(--brand-primary)); */
+    filter: grayscale(100%) brightness(50%) sepia(100%) hue-rotate(-50deg) saturate(500%) contrast(0.9);
+}
+
+.hero_img img:hover {
+    filter: none;
 }
 
 .hero_img .shape_a {
@@ -531,16 +540,17 @@ a.download_btn:hover i {
     gap: 20px;
 }
 
-.experience_divider {
+a.experience_divider {
     background-color: var(--dark-2);
     padding: 15px 30px;
     height: max-content;
     border-radius: 10px;
     border: 1px solid #1e1e1e;
     position: relative;
+    text-decoration: none;
 }
 
-.experience_divider i.circle {
+a.experience_divider i.circle {
     position: absolute;
     right: 2%;
     top: 1%;
@@ -549,13 +559,14 @@ a.download_btn:hover i {
     opacity: 0.7;
 }
 
-.experience_divider b {
+a.experience_divider b {
     font-size: 18px;
     font-family: "Roboto Condensed";
     font-weight: 500;
+    color: #fff;
 }
 
-.experience_divider .company_name {
+a.experience_divider .company_name {
     font-family: "Roboto Condensed";
     font-size: 20px;
     letter-spacing: 1.2px;
@@ -565,44 +576,27 @@ a.download_btn:hover i {
     gap: 10px;
 }
 
-.experience_divider .company_name a {
-    display: flex;
-    align-items: center;
-    font-size: 16px;
-    color: #cfcfcf;
-    gap: 5px;
-}
-
-.experience_divider .company_name a:hover {
-    color: var(--brand-secondary);
-}
-
-
-.experience_divider .company_name i {
-    color: #fff;
-}
-
-.experience_divider .designation {
+a.experience_divider .designation {
     font-size: 18px;
     margin-bottom: 4px;
 }
 
-.experience_divider .exp_duration {
+a.experience_divider .exp_duration {
     font-size: 18px;
     margin-bottom: 4px;
 }
 
-.experience_divider .job_location {
+a.experience_divider .job_location {
     font-size: 18px;
     margin-bottom: 4px;
 }
 
-.experience_divider .job_desc_title {
+a.experience_divider .job_desc_title {
     font-size: 18px;
     margin: 20px 0px 10px 0px;
 }
 
-.experience_divider .job_desc_list {
+a.experience_divider .job_desc_list {
     font-size: var(--desc);
     list-style-type: disc;
     margin-bottom: 8px;
@@ -615,17 +609,17 @@ a.download_btn:hover i {
     margin-left: 20px;
 }
 
-.experience_divider .job_desc_list i {
+a.experience_divider .job_desc_list i {
     margin-right: 5px;
     color: var(--brand-primary);
 }
 
-.experience_divider ul {
+a.experience_divider ul {
     padding: 0;
     margin: 10px 0 0px 20px;
 }
 
-.experience_divider span {
+a.experience_divider span {
     font-style: italic;
     font-size: 16px;
     color: #cfcfcf;
@@ -658,7 +652,7 @@ a.download_btn:hover i {
 
 .techstack_container .techstack_box_wrap {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     width: 100%;
     justify-content: space-between;
     row-gap: 30px;
@@ -679,11 +673,17 @@ a.download_btn:hover i {
 }
 
 .techstack_container a h5 {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     color: var(--foreColor);
     font-family: "Roboto Condensed";
     text-align: center;
+}
+
+.techstack_container a:hover {
+    /* box-shadow: #ff5555 -1px -1px 1px 1px; */
+    box-shadow: #ff5555 0px 5px 100px;
+    /* background-color: #111; */
 }
 
 .techstack_container a:hover img {
@@ -710,9 +710,8 @@ footer {
 }
 
 .footer_container {
-    width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     padding: 15px;
     gap: 10px;
@@ -734,9 +733,7 @@ footer {
 
 .foo_social_links {
     display: flex;
-    justify-content: center;
     gap: 30px;
-    width: 45%;
 }
 
 .foo_social_links a {
@@ -1071,10 +1068,6 @@ footer {
         width: 80px;
     }
 
-    .techstack_container a h5 {
-        font-size: 18px;
-    }
-
     .contact_container {
         place-content: space-between;
     }
@@ -1095,7 +1088,6 @@ footer {
 
     .hero_container {
         grid-template-columns: repeat(1, 1fr);
-        height: auto;
         padding: 30px 20px;
         grid-row-gap: 25px;
     }
@@ -1196,7 +1188,7 @@ footer {
         margin-bottom: 100px;
     }
 
-    .experience_divider {
+    a.experience_divider {
         padding: 15px;
     }
 
@@ -1253,6 +1245,7 @@ footer {
 
     .hero_container {
         padding: 30px 20px;
+        height: auto;
     }
 
     .hero_content p {
@@ -1343,7 +1336,7 @@ footer {
         padding: 20px 10px;
     }
 
-    .experience_divider {
+    a.experience_divider {
         padding: 15px;
     }
 
@@ -1356,28 +1349,24 @@ footer {
         font-size: 25px;
     }
 
-    .experience_divider .company_name {
+    a.experience_divider .company_name {
         font-size: 18px;
     }
 
-    .experience_divider b {
+    a.experience_divider b {
         font-size: 15px;
     }
 
-    .experience_divider span {
+    a.experience_divider span {
         font-size: 15px;
     }
 
-    .experience_divider .job_desc_list {
+    a.experience_divider .job_desc_list {
         font-size: 15px;
     }
 
     .techstack_container {
         padding: 30px 20px;
-    }
-
-    .techstack_container a h5 {
-        font-size: 15px;
     }
 
     .techstack_container a img {
@@ -1564,11 +1553,17 @@ footer {
     }
 
     .hero_container {
-        padding: 0 16px;
+        padding: 25px 15px;
     }
 
     .hero_content p {
         font-size: 14px;
     }
 
+}
+
+@media only screen and (max-width: 359px) {
+    .hero_img img {
+        width: 170px !important;
+    }
 }
